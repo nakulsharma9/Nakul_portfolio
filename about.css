@@ -1,13 +1,13 @@
 .mediaViewInfo {
-	--web-view-name: Homepage;
-	--web-view-id: Homepage;
+	--web-view-name: About;
+	--web-view-id: About;
 	--web-scale-to-fit: true;
 	--web-scale-to-fit-type: width;
 	--web-scale-on-resize: true;
 	--web-enable-deep-linking: true;
 }
 :root {
-	--web-view-ids: Homepage;
+	--web-view-ids: About;
 }
 * {
 	margin: 0;
@@ -15,14 +15,14 @@
 	box-sizing: border-box;
 	border: none;
 }
-#Homepage {
+#About {
 	position: absolute;
 	width: 1920px;
 	height: 1080px;
 	background-color: rgba(16,16,16,1);
 	overflow: hidden;
-	--web-view-name: Homepage;
-	--web-view-id: Homepage;
+	--web-view-name: About;
+	--web-view-id: About;
 	--web-scale-to-fit: true;
 	--web-scale-to-fit-type: width;
 	--web-scale-on-resize: true;
@@ -38,30 +38,16 @@
 	}
 
 }
-#HOME {
+#HOME_ {
 	left: 1393px;
 	top: 36px;
 	position: absolute;
 	overflow: visible;
 	width: 83px;
 	white-space: nowrap;
-	text-align: left;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 25px;
-	color: rgba(146,235,245,1);
-}
-#ABOUT {
-	left: 1520px;
-	top: 35px;
-	position: absolute;
-	overflow: visible;
-	width: 93px;
-	white-space: nowrap;
 	--web-animation: fadein 0.3s ease-out;
 	--web-action-type: page;
-	--web-action-target: about.html;
+	--web-action-target: index.html;
 	cursor: pointer;
 	text-align: left;
 	font-family: Montserrat;
@@ -70,7 +56,21 @@
 	font-size: 25px;
 	color: rgba(146,235,245,1);
 }
-#CONTACT {
+#ABOUT_ {
+	left: 1520px;
+	top: 35px;
+	position: absolute;
+	overflow: visible;
+	width: 93px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(146,235,245,1);
+}
+#CONTACT_ {
 	left: 1657px;
 	top: 35px;
 	position: absolute;
@@ -88,7 +88,7 @@
 	font-size: 25px;
 	color: rgba(146,235,245,1);
 }
-#Portfolio {
+#Portfolio_ {
 	left: 140px;
 	top: 30px;
 	position: absolute;
@@ -103,10 +103,10 @@
 	color: rgba(255,255,255,1);
 	letter-spacing: 0.01px;
 }
-#vashisht_base {
+#vashisht_base_ {
 	fill: rgba(146,235,245,1);
 }
-.vashisht_base {
+.vashisht_base_ {
 	overflow: visible;
 	position: absolute;
 	width: 361.182px;
@@ -115,7 +115,7 @@
 	top: 148px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#vashisht {
+#vashisht_ {
 	position: absolute;
 	width: 306.849px;
 	height: 513.917px;
@@ -123,7 +123,7 @@
 	top: 180.471px;
 	overflow: visible;
 }
-#Name_mine {
+#Name_mine_ {
 	left: 259px;
 	top: 211px;
 	position: absolute;
@@ -137,7 +137,7 @@
 	font-size: 65px;
 	color: rgba(255,255,255,1);
 }
-#Designer_ {
+#Designer__ {
 	opacity: 0.62;
 	left: 259px;
 	top: 309px;
@@ -152,7 +152,7 @@
 	font-size: 34px;
 	color: rgba(255,255,255,1);
 }
-#TextIndicator {
+#TextIndicator_ba {
 	opacity: 0.63;
 	fill: rgba(255,255,255,1);
 	stroke: rgba(112,112,112,1);
@@ -162,7 +162,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-.TextIndicator {
+.TextIndicator_ba {
 	position: absolute;
 	overflow: visible;
 	width: 20px;
@@ -170,97 +170,148 @@
 	left: 211px;
 	top: 209px;
 }
-#Twitter {
+#Rectangle_1 {
+	opacity: 0.09;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_1 {
 	position: absolute;
-	width: 72px;
-	height: 72px;
-	left: 684px;
-	top: 953px;
+	overflow: visible;
+	width: 289px;
+	height: 43px;
+	left: 244px;
+	top: 373px;
+}
+#Twitter_bc {
+	position: absolute;
+	width: 35.569px;
+	height: 36px;
+	left: 271px;
+	top: 376px;
 	overflow: visible;
 }
-#Rectangle_393 {
+#Rectangle_393_bd {
 	fill: transparent;
 }
-.Rectangle_393 {
+.Rectangle_393_bd {
 	position: absolute;
 	overflow: visible;
-	width: 72px;
-	height: 72px;
+	width: 35.569px;
+	height: 36px;
 	left: 0px;
 	top: 0px;
 }
-#Path_2 {
+#Path_2_be {
 	fill: rgba(255,255,255,1);
 }
-.Path_2 {
+.Path_2_be {
 	overflow: visible;
 	position: absolute;
-	width: 66.783px;
-	height: 54.168px;
+	width: 33.431px;
+	height: 27.116px;
 	left: 0px;
-	top: 8.385px;
+	top: 4.177px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Facebook {
+#Facebook_bf {
 	position: absolute;
-	width: 72px;
-	height: 72px;
-	left: 822px;
-	top: 953px;
+	width: 36px;
+	height: 36px;
+	left: 339px;
+	top: 378px;
 	overflow: visible;
 }
-#Rectangle_392 {
+#Rectangle_392_bg {
 	fill: transparent;
 }
-.Rectangle_392 {
+.Rectangle_392_bg {
 	position: absolute;
 	overflow: visible;
-	width: 72px;
-	height: 71.744px;
+	width: 36px;
+	height: 36px;
 	left: 0px;
-	top: 0.256px;
+	top: 0px;
 }
-#Path_1 {
+#Path_1_bh {
 	fill: rgba(255,255,255,1);
 }
-.Path_1 {
+.Path_1_bh {
 	overflow: visible;
 	position: absolute;
-	width: 33.413px;
-	height: 63.982px;
-	left: 20.388px;
+	width: 16.646px;
+	height: 31.876px;
+	left: 10.157px;
+	top: 0.001px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Instagram_bi {
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	left: 402px;
+	top: 377px;
+	overflow: visible;
+}
+#Path_3_bj {
+	fill: rgba(255,255,255,1);
+}
+.Path_3_bj {
+	overflow: visible;
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	left: 0px;
 	top: 0px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Instagram {
-	position: absolute;
-	width: 69.037px;
-	height: 69.037px;
-	left: 960px;
-	top: 953px;
-	overflow: visible;
-}
-#Path_3 {
+#Icon_awesome-linkedin_bk {
 	fill: rgba(255,255,255,1);
 }
-.Path_3 {
+.Icon_awesome-linkedin_bk {
 	overflow: visible;
 	position: absolute;
-	width: 69.037px;
-	height: 69.037px;
-	left: 0px;
-	top: 0px;
+	width: 31.5px;
+	height: 31.5px;
+	left: 474px;
+	top: 378px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Icon_awesome-linkedin {
+#Rectangle_394 {
+	opacity: 0.09;
 	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
 }
-.Icon_awesome-linkedin {
-	overflow: visible;
+.Rectangle_394 {
 	position: absolute;
-	width: 72px;
-	height: 72px;
-	left: 1128px;
-	top: 950px;
-	transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	width: 1102px;
+	height: 466px;
+	left: 221px;
+	top: 540px;
+}
+#Hi_Everyone_Myself_Nakul_Sharm {
+	opacity: 0.95;
+	left: 262px;
+	top: 569px;
+	position: absolute;
+	overflow: visible;
+	width: 1022px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
 }
