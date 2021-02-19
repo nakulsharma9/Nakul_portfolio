@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="378" height="83" viewBox="0 0 378 83">
+  <g id="Resume" transform="translate(-771 -6283)">
+    <g id="download_resumebox" transform="translate(771 6283)" fill="none" stroke="#707070" stroke-width="1">
+      <rect width="378" height="83" rx="11" stroke="none"/>
+      <rect x="0.5" y="0.5" width="377" height="82" rx="10.5" fill="none"/>
+    </g>
+    <text id="Download_Resume" data-name="Download Resume" transform="translate(822 6336)" fill="#069af5" font-size="32" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Download Resume</tspan></text>
+  </g>
+</svg>

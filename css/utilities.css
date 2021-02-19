@@ -1,0 +1,28 @@
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.flex-1{
+    flex:1;
+}
+.justify-center{
+    justify-content:center;
+}
+.btn{
+    margin-left: 55px;
+    width:250px;
+    height:60px;
+    font-family:Montserrat;
+    font-weight:bold;
+    border-color: #08B7F6;
+    border-width:2px;
+    outline:none;
+    cursor:pointer;
+    background: transparent;
+    color:var(--maintext);
+}

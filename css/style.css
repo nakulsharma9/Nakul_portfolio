@@ -1,0 +1,301 @@
+@import './utilities.css';
+:root{
+    --background: #181818;
+    --maintext:#069AF5;
+    --white:#FFFFFF;
+	--lightwhite:	#F5F5F5;
+    --quicklink_color:#08B7F6;
+    --boxes_rect_text_lighter:#555555;
+    --boxes_inner_rect:#4D4D4D;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-font-smotthing:antialised; 
+}
+*.unselectable {
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+ 
+	/*
+	  Introduced in IE 10.
+	  See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+	*/
+	-ms-user-select: none;
+	user-select: none;
+}
+
+header{
+	background:var(--background);
+}
+
+.container{
+	max-width: 1382px;
+    padding: 0 15px;
+    margin:0 auto;
+}
+header nav .right a{
+	color:var(--white);
+    text-decoration: none;
+    margin: 1rem;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition:all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition:all .3s ease;
+    -o-transition:all .3s ease;
+}
+header nav .right a:hover{
+	color:var(--quicklink_color);
+    
+}
+header nav{
+	padding: 2rem 0;
+}
+.hero{
+	margin: 0;
+}
+
+.hero .right img{   /*main photo_homepage*/
+    width: 520px;
+	margin-right: 6rem;
+}
+.hero .left{
+	color:var(--white);
+}
+.hero .left h1{
+	position:absolute;
+    line-height:1.1;    
+    color: var(--white);
+    font-family: Raleway;
+    font-weight: 300;
+    font-size: 48px;
+    word-spacing: 0.4rem; 
+    margin-left: 145px;
+    margin-top: 160px; 
+    
+}
+.hero .left span{
+	color:var(--maintext);
+}
+.hero .left p{
+	position: absolute;
+    line-height: 1.4;
+    margin-left: 145px;
+    margin-right: 150px;
+    margin-top: 350px;
+    font-size:15px;
+    color: var(--boxes_rect_text_lighter);
+}
+
+.hero .left .main_text{
+	color: var(--maintext);
+}
+.rectangle {    /*diffbar_hero */
+    height: 3px;
+    width: 140px;
+    background-color: #555;
+    position: absolute;
+    margin-top:330px;
+    margin-left:147px;
+	
+}
+.hero .sociallinks{
+	margin-top:450px;
+	padding-right:397px;
+}
+.hero .sociallinks a{
+	padding:0.6rem;
+}
+.hero .sociallinks a:hover{
+	opacity:80%;
+}
+/* ABOUT SECTION and global kinda */
+.text{
+	padding-top:5rem;
+	font-size:200px;
+    font-family: Poppins;
+    font-weight: 400;
+    text-transform: capitalize;
+    background: linear-gradient(135deg, #0059FF 0% , #00A6FF 25%, #07FBEC 50%, #00A6FF 75%, #0059FF 100%);
+    background-size: 400%;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    animation:animate 7s linear infinite;
+}
+@keyframes animate{
+	100%{
+		background-position: 400%;
+    }
+}
+
+/*ABOUT STARTS HERE*/
+.diff_about{
+	transform: translate(0px,100px);
+}
+.about {
+	background-color:var(--background);
+}
+
+.about .container img{
+	width:470px;
+	margin-left:30px;
+}
+
+
+.about h1{
+	font-size: 41px;
+	font-family: Raleway;
+	font-weight: 700;
+	padding-bottom: 2rem;
+	color: var(--maintext);
+}
+
+.about .about-para{
+	color:var(--white);
+	font-size: 23px;
+	font-family: Raleway;
+	font-weight: 400;
+	line-height: 1.3;
+	word-spacing: 2px;
+	margin-left: 100px;
+}
+
+/* EXPERIENCE PART */
+section.experience{
+	background-color:var(--background);
+}
+.diff_exp{
+	transform: translate(0px,58px);
+}
+blockquote{
+	display:block;
+	text-align:center;
+	position:relative;
+	width: 50%;
+	margin :1rem auto;
+	padding:2rem;
+	padding-bottom: 4rem;
+	font-size: 25px;
+	font-weight:400;
+	font-family: 'Montserrat';
+	color:var(--boxes_inner_rect);
+}
+blockquote::before{
+	content:'\201C';
+	font-size: 50px;
+	color:var(--maintext);
+}
+blockquote::after{
+	content:'\201D';
+	font-size: 50px;
+	color:var(--maintext);
+}
+
+.container .timeline_class{
+	text-align: center;
+	justify-content:center;
+	color:var(--white);
+	margin-bottom:2rem;
+}
+section.experience .More_exp{
+	text-align:center;
+	margin:50px auto;
+	color:var(--white);
+	font-family: Montserrat;
+	font-size: 20px;
+}
+section.experience .card-wrapper{
+	align-items: center;
+	position: relative;
+	justify-content: center;
+	padding:50px auto;
+	left:170px;
+	transform:translate();
+    border-radius: 10px;
+	box-shadow: 0px 0px 38px var(--boxes_rect_text_lighter);	
+	height:300px;
+	max-width:1000px;
+		
+}
+section.experience .card-wrapper .left img{
+	width: 150px;
+	border-radius: 15px;
+
+}
+
+section.experience .card-wrapper .right{
+	margin-left: 50px;
+	margin-top:2rem;
+}
+section.experience .card-wrapper .right h4{
+	margin-bottom: 1rem;
+	color:var(--boxes_inner_rect);
+}
+section.experience .card-wrapper .right h2{
+	padding-bottom:1.6rem;
+	color:var(--lightwhite);
+}
+section.experience .card-wrapper .right p{
+
+	color:var(--boxes_rect_text_lighter);
+	line-height: 20px;
+	word-spacing: 3px;
+}
+/*---------------------------------------------------EDUCATION--------------------------------*/
+section.educ-skill{
+	background-color: var(--background);
+}
+.container .grid .college{
+	align-items: center;
+	position: relative;
+	padding:40px;
+	justify-content: center;
+	transform:translate();
+    border-radius: 35px;
+	height:700px;
+	max-width:540px;
+	box-shadow: 0px 0px 38px var(--boxes_rect_text_lighter);	
+	background:transparent;
+}
+.container .grid .college img{
+	width:460px;
+	align-items: center;
+	align-content:center;
+}
+.container .grid .college h5{
+	font-family: Montserrat;
+	font-size: 15px;
+	text-align: center;
+	color:var(--boxes_rect_text_lighter);
+	padding-top:1rem;
+	padding-bottom: 2rem;
+}
+.container .grid .college h3{
+	font-family: Raleway;
+	font-size: 20px;
+	text-align: center;
+	padding-top:2rem;
+	color:var(--lightwhite);
+	padding-bottom: 2rem;
+	justify-content: center;
+}
+.container .grid .college h2{
+	font-family: Raleway;
+	font-size: 20px;
+	text-align: center;
+	padding-top:2rem;
+	color:var(--maintext);
+	padding-bottom: 2rem;
+	justify-content: center;
+}

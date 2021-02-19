@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="87" height="66" viewBox="0 0 87 66">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 114 90">
+      <image width="114" height="90" xlink:href="Logo-image.png"/>
+    </pattern>
+    <pattern id="pattern-2" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 118 90">
+      <image width="118" height="90" xlink:href="Logo-image2.png"/>
+    </pattern>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cce0f4"/>
+      <stop offset="0.06" stop-color="#c3dcf2"/>
+      <stop offset="0.17" stop-color="#a9d2ee"/>
+      <stop offset="0.31" stop-color="#80c2e7"/>
+      <stop offset="0.46" stop-color="#47acde"/>
+      <stop offset="0.57" stop-color="#1e9cd7"/>
+      <stop offset="0.87" stop-color="#0075be"/>
+      <stop offset="0.99" stop-color="#005b97"/>
+    </linearGradient>
+  </defs>
+  <g id="Logo" transform="translate(13043 7233)">
+    <g id="Group_2" data-name="Group 2" transform="translate(-13041.529 -7233)">
+      <g id="Group_1" data-name="Group 1" transform="translate(0 0)">
+        <rect id="Rectangle_9" data-name="Rectangle 9" width="84" height="66" transform="translate(-0.47 0)" opacity="0.26" fill="url(#pattern)"/>
+        <path id="Path_13" data-name="Path 13" d="M31.447,23.51V65.6q-6.087.294-10.564.735V65.246a9.153,9.153,0,0,0,4.411-3.191q1.764-2.308,1.772-11.028V36.494q0-5.881-1.36-8.734-1.4-2.654-5.7-3.9V22.9Q22.772,23.216,31.447,23.51ZM35.637,65.6V23.51q3.132-.118,4.72-.294l-.412,3.124a30.605,30.605,0,0,1,13.7-3.713A11.9,11.9,0,0,1,60.6,24.635,8.69,8.69,0,0,1,64.147,29.3a35.728,35.728,0,0,1,.735,8.616V65.6q-2.426.125-4.727.353.419-7.352.412-10.292V36.795q0-5.786-1.647-8.146c-1.147-1.617-3.191-2.426-6.146-2.426q-4.72,0-12.807,3.9V54.145q0,9.447,6.969,11.1v1.029Q39.85,65.6,35.637,65.6Zm33.355,0v-28.8a31.849,31.849,0,0,0-.831-8.624,8.235,8.235,0,0,0-3.779-4.308,9.653,9.653,0,0,1,6.44,2.779q2.411,2.536,2.419,11.505V51.9a30.186,30.186,0,0,0,.588,7.2,7.256,7.256,0,0,0,2.478,3.955A8.962,8.962,0,0,0,80.8,65.268v1.007q-1.948-.176-6.469-.441C71.322,65.687,69.536,65.6,68.992,65.6Z" transform="translate(-13.7 -16.673)" fill="#fcee21"/>
+      </g>
+    </g>
+    <g id="Group_3" data-name="Group 3" transform="translate(-13043 -7233)">
+      <rect id="Rectangle_10" data-name="Rectangle 10" width="87" height="66" transform="translate(0 0)" opacity="0.26" fill="url(#pattern-2)"/>
+      <path id="Path_14" data-name="Path 14" d="M27.622,23.386l25.65,39.376-2.206,3.477h-.412L29.512,34.068a41.414,41.414,0,0,0-6.021-7.558,11.991,11.991,0,0,0-5.551-2.772v-1Q24.2,23.269,27.622,23.386ZM70.916,34.3,55.662,59.042,32.136,23.386q6.558,0,13.52-.647v1q-4.367,1.353-4.367,4.19,0,1.654,3.132,6.374L55.25,50.9l8.822-14.409q2.779-4.543,2.779-7.352,0-3.544-5.962-5.433v-.963c.118,0,1.2.1,3.249.294a46.9,46.9,0,0,0,5.308.412q2.36,0,12.277-.735v1a12.689,12.689,0,0,0-5.249,3.014A41.21,41.21,0,0,0,70.916,34.3Z" transform="translate(-11.684 -16.696)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

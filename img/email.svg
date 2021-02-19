@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="134" height="52.129" viewBox="0 0 134 52.129">
+  <g id="email" transform="translate(-379.5 -6464.593)">
+    <g id="Page_break" transform="translate(379.5 6516.723) rotate(-90)">
+      <g id="diff_bar" data-name="diff bar" transform="translate(3.723 14)">
+        <rect id="diff_bar-2" data-name="diff bar" width="120" height="2" transform="translate(2) rotate(90)" fill="#fff"/>
+      </g>
+      <path id="Icon_metro-cross" data-name="Icon metro-cross" d="M9.909,8.034h0L6.875,5,9.909,1.966h0a.313.313,0,0,0,0-.442L8.476.091a.313.313,0,0,0-.442,0h0L5,3.125,1.966.091h0a.313.313,0,0,0-.442,0L.091,1.524a.313.313,0,0,0,0,.442h0L3.125,5,.091,8.034h0a.313.313,0,0,0,0,.442L1.524,9.909a.313.313,0,0,0,.442,0h0L5,6.875,8.034,9.909h0a.313.313,0,0,0,.442,0L9.909,8.476a.313.313,0,0,0,0-.442Z" transform="translate(0 0)" fill="#fff"/>
+    </g>
+    <path id="Icon_material-email" data-name="Icon material-email" d="M30,6H6A3,3,0,0,0,3.015,9L3,27a3.009,3.009,0,0,0,3,3H30a3.009,3.009,0,0,0,3-3V9A3.009,3.009,0,0,0,30,6Zm0,6L18,19.5,6,12V9l12,7.5L30,9Z" transform="translate(390.5 6458.593)" fill="#fff"/>
+    <text id="Email-2" data-name="Email" transform="translate(428.5 6487)" fill="#555" font-size="14" font-family="Raleway" letter-spacing="0.02em"><tspan x="0" y="0">Email</tspan></text>
+  </g>
+</svg>
