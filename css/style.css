@@ -261,11 +261,10 @@ section.educ-skill{
 	position: relative;
 	padding:40px;
 	justify-content: center;
-	transform:translate();
     border-radius: 35px;
 	height:700px;
 	max-width:540px;
-	box-shadow: 0px 0px 38px var(--boxes_rect_text_lighter);	
+	box-shadow: 0px 0px 25px var(--boxes_rect_text_lighter);	
 	background:transparent;
 }
 .container .grid .college img{
@@ -295,7 +294,43 @@ section.educ-skill{
 	font-size: 20px;
 	text-align: center;
 	padding-top:2rem;
-	color:var(--maintext);
+	color: #b9b9b9;
 	padding-bottom: 2rem;
 	justify-content: center;
+}
+.ed-btn {
+	border:2px #F5F5F5;
+	transition: all 0.3s ease 0s;
+	background: var(--background);
+	padding:3rem auto;
+	color:var(--boxes_inner_rect) !important;
+	font-weight: 100;
+	padding: 20px;
+	text-transform: uppercase;
+	border-radius: 6px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.ed-btn:hover {
+	color:var(--lightwhite) !important;
+	font-weight: 700 !important;
+	letter-spacing: 3px;
+	background: none;
+	-webkit-box-shadow: 0px 5px 40px -10px var(--boxes_rect_text_lighter);
+	-moz-box-shadow: 0px 5px 40px -10px var(--boxes_rect_text_lighter);
+	transition: all 0.3s ease 0s;
+}
+.container .grid .Skills{
+	font-family: Poppins;
+	font-weight: 700;
+	font-size:30px;
+	align-items: center;
+	position: relative;
+	justify-content: center;
+    border-radius: 35px;
+	height:700px;
+	max-width:540px;
+	box-shadow: 0px 0px 25px var(--boxes_rect_text_lighter);	
+	background:transparent;
 }
