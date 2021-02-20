@@ -177,12 +177,12 @@ blockquote {
   color: var(--boxes_inner_rect);
 }
 blockquote::before {
-  content: "201C";
+  content: '201C';
   font-size: 50px;
   color: var(--maintext);
 }
 blockquote::after {
-  content: "201D";
+  content: '201D';
   font-size: 50px;
   color: var(--maintext);
 }
