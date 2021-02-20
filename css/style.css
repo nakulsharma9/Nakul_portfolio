@@ -195,7 +195,7 @@ blockquote::after {
 section.experience .More_exp {
   text-align: center;
   margin: 50px auto;
-  color: var(--white);
+  color: var(--boxes_inner_rect);
   font-family: Montserrat;
   font-size: 20px;
 }
