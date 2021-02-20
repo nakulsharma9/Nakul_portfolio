@@ -420,3 +420,6 @@ button:hover{
 	padding:4rem;
 	grid-template-columns:repeat(8,1fr);
 }
+.diff_getintouch {
+	padding:4rem;
+}
