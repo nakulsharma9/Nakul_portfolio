@@ -302,6 +302,7 @@ section.educ-skill{
 	transition: all 0.3s ease 0s;
 	background: var(--background);
 	padding:3rem auto;
+	font-family: Montserrat;
 	color:var(--maintext) !important;
 	font-weight: 100;
 	padding: 20px;
@@ -350,10 +351,9 @@ section.educ-skill{
 }
 
 .container .tagline{
-	color:white !important;
+	color:var(--quicklink_color);	
 	font-size:30px;
 	text-align: center;
-	/* margin:2rem; */
 	margin-top:4rem;
 }
 .container .certificates{
@@ -414,4 +414,9 @@ button:hover{
 	font-family: Montserrat;
 	font-size: 35px;
 	font-weight: 400px;
+}
+.tools .toolgrid{
+	display:grid;
+	padding:4rem;
+	grid-template-columns:repeat(8,1fr);
 }
