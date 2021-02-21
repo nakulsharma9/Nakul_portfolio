@@ -12,6 +12,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-family: "Poppins", sans-serif;
   font-family: "Raleway", sans-serif;
+  font-family: 'Yesteryear', cursive;
 }
 * {
   margin: 0;
@@ -39,6 +40,7 @@ header nav .right a {
   text-decoration: none;
   margin: 1rem;
   font-size: 13px;
+  font-family: Montserrat;
   font-weight: 600;
   text-transform: uppercase;
   transition: all 0.3s ease;
@@ -76,9 +78,11 @@ header nav {
 }
 .hero .left span {
   color: var(--maintext);
+  font-family: Raleway;
 }
 .hero .left p {
   position: absolute;
+  font-family: Raleway;
   line-height: 1.4;
   margin-left: 145px;
   margin-right: 150px;
@@ -173,7 +177,7 @@ blockquote {
   padding-bottom: 4rem;
   font-size: 25px;
   font-weight: 400;
-  font-family: "Montserrat";
+  font-family: Yesteryear;
   color: var(--boxes_inner_rect);
 }
 blockquote::before {
@@ -222,15 +226,18 @@ section.experience .card-wrapper .right {
 section.experience .card-wrapper .right h4 {
   margin-bottom: 1rem;
   color: var(--boxes_inner_rect);
+  font-family: Raleway;
 }
 section.experience .card-wrapper .right h2 {
   padding-bottom: 1.6rem;
   color: var(--lightwhite);
+  font-family: Poppins;
 }
 section.experience .card-wrapper .right p {
   color: var(--boxes_rect_text_lighter);
   line-height: 20px;
   word-spacing: 3px;
+  font-family: Raleway;
 }
 section.educ-skill {
   background-color: var(--background);
