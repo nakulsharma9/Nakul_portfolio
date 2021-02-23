@@ -9,3 +9,9 @@ $(window).scroll(function () {
 $("a.tbtn").click(function () {
     $("html").animate({ scrollTop: 0 })
 })
+window.onload = function () {
+    setTimeout(function () {
+        (document.getElementById('loader').style.display = "none").fadetoggle();
+    }, 1500);
+    (document.getElementById('content').style.display = "block").fadeOut;
+}
