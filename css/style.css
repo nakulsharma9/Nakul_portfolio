@@ -504,17 +504,17 @@ section.contact .contact-wrapper a{
 section.contact .contact-wrapper .a h4{
   text-decoration: none;
 }
-footer .footer-credit{
-  text-align: right;
+footer{
+  margin-bottom: 2rem;
 }
 footer h2{
   color:var(--boxes_inner_rect);
   font-family:Montserrat;
-  font-size:16px;
+  font-size:19px;
 }
 footer h1{
   color:var(--boxes_inner_rect);
   font-family: Montserrat;
-  font-size:16px;
+  font-size:19px;
   text-align: right;
 }
