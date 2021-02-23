@@ -39,17 +39,6 @@ header {
   padding: 0 15px;
   margin: 0 auto;
 }
-nav{
-  animation:nav-load 500ms ease-in;
-}
-@keyframes nav-load{
-  0% {
-    transform:translateY(-100%);
-  }
-  100%{
-    transform:translateY(0);
-  }
-}
 header nav .right a {
   color: var(--white);
   text-decoration: none;

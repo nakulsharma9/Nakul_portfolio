@@ -10,10 +10,12 @@ $("a.tbtn").click(function () {
     $("html").animate({ scrollTop: 0 })
 })
 document.onreadystatechange = function () {
-    while (document.readyState !== "complete") {
+    if (document.readyState !== "complete") {
         document.querySelector("content").style.visibility = "hidden";
         document.querySelector("#loader").style.visibility = "visible";
     }
-    document.querySelector("#loader").style.display = "none";
-    document.querySelector("content").style.visibility = "visible";
+    else {
+        document.querySelector("#loader").style.display = "none";
+        document.querySelector("content").style.visibility = "visible";
+    }
 }; 
