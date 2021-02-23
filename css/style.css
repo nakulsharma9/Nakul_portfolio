@@ -491,3 +491,30 @@ a{
   text-align: center;
   margin:3rem auto;
 }
+section.contact .contact-wrapper{
+  display: grid;
+  grid-template-columns:repeat(3,1fr);
+  text-align: center;
+  margin: 9rem auto;
+}
+section.contact .contact-wrapper a{
+  font-family: Raleway;
+  color:var(--maintext);
+}
+section.contact .contact-wrapper .a h4{
+  text-decoration: none;
+}
+footer .footer-credit{
+  text-align: right;
+}
+footer h2{
+  color:var(--boxes_inner_rect);
+  font-family:Montserrat;
+  font-size:16px;
+}
+footer h1{
+  color:var(--boxes_inner_rect);
+  font-family: Montserrat;
+  font-size:16px;
+  text-align: right;
+}
