@@ -40,7 +40,7 @@ header {
   margin: 0 auto;
 }
 nav{
-  animation:nav-load 200ms;
+  animation:nav-load 500ms ease-in;
 }
 @keyframes nav-load{
   0% {
