@@ -12,6 +12,6 @@ $("a.tbtn").click(function () {
 window.onload = function () {
     setTimeout(function () {
         (document.getElementById('loader').style.display = "none").fadetoggle();
-    }, 1500);
+    }, 4000);
     (document.getElementById('content').style.display = "block").fadeOut;
 }
