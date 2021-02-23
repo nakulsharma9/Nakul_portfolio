@@ -9,9 +9,11 @@ $(window).scroll(function () {
 $("a.tbtn").click(function () {
     $("html").animate({ scrollTop: 0 })
 })
-window.onload = function () {
-    setTimeout(function () {
-        (document.getElementById('loader').style.display = "none").fadetoggle();
-    }, 4000);
-    (document.getElementById('content').style.display = "block").fadeOut;
-}
+document.onreadystatechange = function () {
+    while (document.readyState !== "complete") {
+        document.querySelector("content").style.visibility = "hidden";
+        document.querySelector("#loader").style.visibility = "visible";
+    }
+    document.querySelector("#loader").style.display = "none";
+    document.querySelector("content").style.visibility = "visible";
+}; 
