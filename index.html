@@ -12,12 +12,14 @@
 	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Yesteryear&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="css/aos.css">
 	<link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon">
 	<link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
 	<link rel="manifest" href="./img/favicon/site.webmanifest">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<script src="js/jquery-3.5.1.min.js"></script>
+
 </head>
 
 <body>
@@ -75,11 +77,12 @@
 	</header>
 	<section id="about" class="about">
 		<div class="container ">
-			<div class=" text flex justify-center">about</div>
+			<div class=" text flex justify-center" data-aos="fade-up">about</div>
 		</div>
 		<div class="container flex items-center ">
 			<div class="flex-1">
-				<p class="about-para justify-between">Thanks for dropping by. My name is Nakul Sharma. I'm a graphic
+				<p class="about-para justify-between">Thanks for dropping by. My name is Nakul
+					Sharma. I'm a graphic
 					designer, media editor and a UI/UX designer.
 					<br>
 					<br>&emsp; I'm currently working as a designer at Google Developer Student Club, a student community
@@ -92,15 +95,15 @@
 				</p>
 			</div>
 			<div class="flex-1">
-				<img class="about-me-class" src="img/aboutmine.jpg" alt="">
+				<img class=" about-me-class" src="img/aboutmine.jpg" alt="">
 			</div>
 		</div>
-		<div class="diff_exp flex justify-center">
+		<div class="diff_exp flex justify-center" data-aos="fade-down">
 			<img src="img/experience_break.svg" alt="">
 		</div>
 	</section>
 	<section id="exp" class="experience">
-		<div class=" text flex justify-center">Experience</div>
+		<div class=" text flex justify-center" data-aos="fade-up">Experience</div>
 		<blockquote class="exp-quote">This is a brief chronicle of the stories till now !</blockquote>
 		<div class="container">
 			<h1 class="timeline_class">Timeline</h1>
@@ -121,18 +124,18 @@
 			</div>
 			<h3 class="More_exp">More Coming Soon !</h3>
 		</div>
-		<div class="diff_edu flex justify-center">
+		<div class="diff_edu flex justify-center" data-aos="fade-down">
 			<img src="img/experience_break.svg" alt="">
 		</div>
 	</section>
 	<section id="edu" class="educ-skill">
 		<div class="contianer">
-			<div class="text flex justify-center">Education</div>
+			<div class="text flex justify-center" data-aos="fade-up">Education</div>
 		</div>
-		<div class="container">
+		<div class="container" data-aos="fade-left">
 			<div class=" grid flex item-center ">
 				<div class=" college">
-					<img src=" ./img/mier.png" alt="">
+					<img src="img/mier.png" alt="">
 					<h5>Model Institute of Engineering & Technology<br>Jammu & Kashmir</h2>
 						<h3>Pursing Bachelors of Engineering in Computer Science<br>( 2019 - 2023 )</h3>
 						<h2>CGPA : 6.7</h2>
@@ -151,7 +154,7 @@
 				</div>
 			</div>
 			<h1 class="tagline">Certificates</h1>
-			<div class="certificates">
+			<div class="certificates" data-aos="fade-right">
 				<div class="card">
 					<div class="image"> <img src="img/python.jpg.png"></div>
 					<div class="title">
@@ -175,7 +178,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="tools">
+			<div class="tools" data-aos="fade-up">
 				<h2>Major Tools used</h2>
 				<div class="toolgrid">
 					<div class="toolcard"> <img src="img/ps.png" alt=""></div>
@@ -188,12 +191,13 @@
 					<div class="toolcard"> <img src="img/filmora.png" alt=""></div>
 				</div>
 			</div>
-			<div class="diff_getintouch flex justify-center"> <img src="img/experience_break.svg" alt=""></div>
+			<div class="diff_getintouch flex justify-center" data-aos="fade-down"> <img src="img/experience_break.svg"
+					alt=""></div>
 		</div>
 	</section>
 	<section id="contact" class="contact">
 		<div class="container">
-			<div class="text flex justify-center">Get In Touch</div>
+			<div class="text flex justify-center" data-aos="zoom-in-up">Get In Touch</div>
 		</div>
 		<div class="container">
 			<p>If you could see my face right now. You would see gratitude.<br>
@@ -237,6 +241,13 @@
 		</div>
 	</footer>
 	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/aos.js"></script>
+	<script>
+		AOS.init({
+			offset: 820,
+			duration: 1000,
+		});
+	</script>
 </body>
 
 </html>
