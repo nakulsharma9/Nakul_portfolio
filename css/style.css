@@ -7,6 +7,9 @@
   --quicklink_color: #08b7f6;
   --boxes_rect_text_lighter: #555;
   --boxes_inner_rect: #4d4d4d;
+  --nav-load-time:1000ms;
+  --h1-load-time:1100ms;
+  --social-delay:calc(var(--nav-load-time)+ var(--h1-load-time));
 }
 body {
   font-family: "Montserrat", sans-serif;
@@ -39,6 +42,17 @@ header {
   padding: 0 15px;
   margin: 0 auto;
 }
+nav{
+  animation: nav-load var(--nav-load-time) ease-in;
+}
+@keyframes nav-load{
+  0%{
+    transform:translateY(-100%);
+  }
+  100%{
+    transform:translateY(0%);
+  }
+}
 header nav .right a {
   color: var(--white);
   text-decoration: none;
@@ -66,6 +80,7 @@ header nav {
   width: 520px;
   margin-right: 6rem;
 }
+
 .hero .left {
   color: var(--white);
 }
@@ -79,6 +94,19 @@ header nav {
   word-spacing: 0.4rem;
   margin-left: 145px;
   margin-top: 160px;
+  animation: fadeIn ease 1100ms var(--nav-load-time);
+  animation-fill-mode: forwards;
+  transform:scale(0);
+}
+@keyframes fadeIn{
+  0% {
+    transform:translate(0%,50%);
+    opacity:0;
+  }
+100% {
+  opacity:1;
+  transform:translate(0%,0%);
+  }
 }
 .hero .left span {
   color: var(--maintext);
@@ -93,7 +121,11 @@ header nav {
   margin-top: 350px;
   font-size: 15px;
   color: var(--boxes_rect_text_lighter);
+  animation: fadeIn ease 1300ms var(--nav-load-time);
+  animation-fill-mode: forwards;
+  transform:scale(0);
 }
+
 .hero .left .main_text {
   color: var(--maintext);
 }
@@ -104,10 +136,35 @@ header nav {
   position: absolute;
   margin-top: 330px;
   margin-left: 147px;
+  animation: fadeIn ease 1300ms var(--nav-load-time);
+  animation-fill-mode: forwards;
+  transform:scale(0);
 }
 .hero .sociallinks {
   margin-top: 450px;
   padding-right: 410px;
+  animation-name:social-links;
+  animation-duration:3000ms;
+  animation-timing-function: ease-in;
+  animation-delay:var(--social-delay);
+  animation-fill-mode: forwards;
+}
+@keyframes social-links{
+  0% {
+    opacity:0;
+  }
+  30%{
+    opacity:0.3;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  70%{
+    opacity:0.7;
+  }
+100% {
+  opacity:1;
+  }
 }
 .hero .sociallinks a {
   padding: 0.6rem;
@@ -141,6 +198,22 @@ header nav {
 }
 .diff_about {
   transform: translate(0px, 95px);
+  animation-name:diff-bar;
+  animation-duration:1000ms;
+  animation-timing-function: ease-in;
+  animation-delay:var(--nav-load-time);
+  animation-fill-mode: forwards;
+  transform: scale(0);
+}
+@keyframes diff-bar{
+  0%{
+    transform:translateY(-40%);
+    opacity:0;
+  }
+  100%{
+    transform:translateY(95px);
+    opacity:1;
+  }
 }
 .about {
   background-color: var(--background);
