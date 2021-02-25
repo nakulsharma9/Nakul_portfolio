@@ -702,6 +702,20 @@ footer h1{
 
   }
 }
+@media(min-width:1336px){
+  .container {
+    max-width: 1182px;
+  padding: 0 15px;
+  margin: 0 auto;
+  }
+}
+@media(min-width:1600px){
+  .container {
+    max-width: 1382px;
+  padding: 0 15px;
+  margin: 0 auto;
+  }
+}
 
 @media (max-width:1024px){
   header #main-nav{
