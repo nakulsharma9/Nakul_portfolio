@@ -14,9 +14,11 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-family: "Poppins", sans-serif;
-  font-family: "Raleway", sans-serif;
   font-family: 'Yesteryear', cursive;
+  font-family: "Raleway", sans-serif;
   background-color: var(--background);
+  overflow-x: hidden;
+  overflow-y:auto;
 }
 html{
   scroll-behavior: smooth;
@@ -42,6 +44,7 @@ header {
   padding: 0 15px;
   margin: 0 auto;
 }
+
 nav{
   animation: nav-load var(--nav-load-time) ease-in;
 }
@@ -615,3 +618,349 @@ footer h1{
 }
 .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
 .material-icons.md-48 { font-size: 48px; }
+.material-icons.md-36 { font-size: 36px; }
+
+.site-main-wrapper{
+  position: relative;
+}
+.hamburger{
+  position:absolute;
+  top:10px;
+  right:20px;
+  background-color: var(--background);
+  color:var(--lightwhite);
+  border:none;
+  cursor: pointer;
+}
+.mobile-nav {
+  z-index: 99999;
+  position: fixed;
+  background:var(--boxes_rect_text_lighter);
+  top:0;
+  left:0;
+  width: 100%;
+  height:100%;
+  padding:3rem;
+  padding-top: 4rem;
+  transform:translateX(-100%);
+  transition:all .5s ease-in-out;
+}
+.open{
+  transform: translateX(0);
+}
+.times{
+  position: fixed;
+  top:10px;
+  right:10px;
+  border:none;
+  background:none;
+  outline: none;
+  color:var(--lightwhite);
+  border:none;
+  cursor: pointer;
+}
+.mobile-nav ul{
+  list-style-type: none;
+  padding:2rem;
+}
+.mobile-nav ul li a{
+  color:var(--background);
+  text-decoration: none;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  font-weight: 501;
+  font-size:2rem;
+  line-height:3.5rem;
+}
+/* @media (min-width:576px){
+  .container {
+    max-width:540px;  
+  }
+}
+
+@media (min-width:768px){
+  .container {
+    max-width:720px;  
+  }
+}
+
+@media (min-width:992px){
+  .container {
+    max-width:960px;  
+  }
+}
+
+@media (min-width:1200px){
+  .container {
+    max-width:1152px;  
+  }
+} */
+
+@media (max-width:1024px){
+  header #main-nav{
+    display: none;
+  }
+  .hero{
+    /* flex:none; */
+    padding-top: 10rem;
+  }
+  .hero .right img{
+    width: 550px;
+    margin-right:-40px;
+  }
+  .hero .left h1{
+    font-size:38px;
+    margin-left:0;
+    line-height: 1.1;
+    margin-top: 2px;
+    padding:2rem;
+    font-weight: 300;
+  }
+  .rectangle{
+    margin-top: 180px;
+    margin-left: 40px;
+    height: 2px;
+    width: 125px;
+    position: absolute;
+  }
+  .hero .left p{
+    margin-left: 35px;
+    margin-right: 0px;
+    font-size:12px;
+    color:#E5E5E5;
+    font-weight: 100;
+    margin-top:200px;
+    position:absolute;
+  }
+  .hero .sociallinks{
+    padding-right: 0px;
+    margin-top: 285px;
+    padding-left:18px;
+    position: absolute;
+  }
+  .about .about-para{
+    font-size: 17px;
+    margin-left:10px;
+  }
+  .text{
+    font-size: 100px;
+    padding-top:6rem;
+    padding-bottom: 3rem;
+  }
+  .about .container img{
+    width:400px;
+  }
+  blockquote{
+    padding: 0rem;
+    font-size:19px;
+  }
+  blockquote::before{
+    font-size:30px;
+  }
+  blockquote::after{
+    font-size:30px;
+  }
+  section.experience .card-wrapper{
+    position:static;
+  }
+  section.experience .card-wrapper .right{
+    margin-left:0px;
+    margin-top:0;
+  }
+  .container .grid .college{
+    padding:0px;
+    height: 470px;
+    width: 360px;
+  }
+  .container .grid .college img{
+    width:357px;
+  }
+  .container .grid .college h5{
+    font-size:10px;
+    padding-bottom: 0px;
+  }
+  .container .grid .college h3{
+    font-size: 15px;
+    padding-bottom:0px;
+  }
+  .container .grid .skills{
+    margin-left:0px;
+    height: 370px;
+    width:270px;
+    padding:20px;
+    margin-top:10px;
+  }
+  .container .grid ul{
+    font-size:12px;
+  }
+  .card{
+    margin:3rem;
+  }
+  .tools h2{
+    font-size: 25px;
+    padding-bottom:3rem;
+  }
+  .tools .toolgrid{
+    padding:0;
+  }
+  .contact p{
+    font-size:18px;
+    padding:2rem;
+  }
+}
+
+@media (max-width:576px){
+  .hero{
+    flex-direction: column;
+    padding-top:7rem;
+  }
+  .hero .right img{
+    width: 350px;
+    opacity: 0.5;
+    margin-right:-190px;
+    margin-top:-2rem;
+  }
+  .hero .left h1{
+    padding:0rem;
+    z-index: 9999;
+    margin-top:3rem;
+    font-size:23px;
+  }
+  .rectangle{
+    margin-left:0px;
+    z-index: 9999;
+    margin-top:130px; 
+  }
+  .hero .left p{
+    margin-left:0px;
+    z-index: 9999;
+    font-size:10px;
+    margin-top:145px;
+  }
+  .hero .sociallinks{
+    padding-left:0;
+    margin-left:-15px;
+    z-index: 9999;
+    margin-top:200px;
+  }
+  .about .about-para{
+    position:absolute;
+    z-index: 9999;
+    font-size:15px;
+    margin-left:0px;
+    display: block;    
+  }
+  .about .container img{
+    margin-left:-140px;
+    opacity: 0.4;
+    word-spacing:0px;
+  }
+  .text{
+    font-size:60px;
+  }
+  blockquote{
+    padding: 2rem;
+    padding-bottom: 1rem;
+    word-spacing: 0.2rem;
+  }blockquote::before{
+    font-size:30px;
+    padding: .4rem;
+  }
+  blockquote::after{
+    font-size:30px;
+    padding: .4rem;
+  }
+  .container .timeline_class{
+    margin-bottom:5rem;
+  }
+  section.experience .card-wrapper{
+    align-items:unset;
+    flex-direction:column;
+    text-align: center;
+  }
+  section.experience .card-wrapper .left img{
+    margin-top:-35px;
+  }
+  section.experience .card-wrapper .right h4{
+    margin-bottom: .3rem;
+  }
+  section.experience .card-wrapper .right h2{
+    font-size:18px;
+    padding-bottom:1rem;
+  }
+  section.experience .card-wrapper .right p{
+    font-size: 12px;
+    line-height: 15px;
+  }
+  br{
+    display:none;
+  }
+  section.experience .More_exp{
+    margin:20px auto;
+  }
+  .container .grid .college{
+    transform: unset;
+    width:350px;
+    height:500px;
+    margin-bottom: 1rem;
+  }
+  .container .grid .college img{
+    width:350px;
+    padding:1rem;
+  }
+  .edu-wrap{
+    flex-direction: column;
+  }
+  .container .grid .skills{
+    transform:unset;
+    width:345px;
+  }
+  .card{
+    margin:2rem;
+    width: 280px;
+    height: 320px;
+  }
+  .title{
+    padding:0;
+  }
+  .tools h2{
+    padding-top:1rem;
+  }
+  .tools .toolgrid{
+    grid-template-columns:repeat(3,5fr);
+    padding:4rem;
+    padding-top: 1rem;
+
+  }
+  .tools .toolgrid img{
+    width: 70px;
+  }
+  .gttext{
+    font-size: 53px;
+    padding-bottom: 1rem;
+  }
+  .diff_getintouch{
+    padding:0px;
+  }
+  .contact p{
+    font-size: 13px;
+  }
+  .dbtnclass{
+    margin:0rem;  
+  }
+  section.contact .contact-wrapper{
+    grid-template-columns: repeat(3,1fr);
+  }
+  .c-card img{
+    width:80px;
+  }
+  .c-card a{
+    font-size: 13px;
+  }
+  footer h2{
+    font-size:12px;
+  }
+  footer h1{
+    font-size:12px;
+  }
+}
