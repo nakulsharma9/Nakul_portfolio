@@ -672,7 +672,7 @@ footer h1{
   font-size:2rem;
   line-height:3.5rem;
 }
-/* @media (min-width:576px){
+@media (min-width:576px){
   .container {
     max-width:540px;  
   }
@@ -694,7 +694,7 @@ footer h1{
   .container {
     max-width:1152px;  
   }
-} */
+}
 
 @media (max-width:1024px){
   header #main-nav{
