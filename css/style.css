@@ -17,8 +17,8 @@ body {
   font-family: 'Yesteryear', cursive;
   font-family: "Raleway", sans-serif;
   background-color: var(--background);
-  overflow-x: hidden;
-  overflow-y:auto;
+  /* overflow-x: hidden;
+  overflow-y:auto; */
 }
 html{
   scroll-behavior: smooth;
@@ -675,24 +675,31 @@ footer h1{
 @media (min-width:576px){
   .container {
     max-width:540px;  
+    overflow: hidden;
   }
 }
 
 @media (min-width:768px){
   .container {
     max-width:720px;  
+    overflow: hidden;
+
   }
 }
 
 @media (min-width:992px){
   .container {
     max-width:960px;  
+    overflow: hidden;
+
   }
 }
 
 @media (min-width:1200px){
   .container {
     max-width:1152px;  
+    overflow: hidden;
+
   }
 }
 
@@ -819,6 +826,7 @@ footer h1{
     opacity: 0.5;
     margin-right:-190px;
     margin-top:-2rem;
+    overflow: hidden;
   }
   .hero .left h1{
     padding:0rem;
