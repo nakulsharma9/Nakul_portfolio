@@ -630,6 +630,7 @@ footer h1{
   color:var(--lightwhite);
   border:none;
   cursor: pointer;
+  display:none;
 }
 .mobile-nav {
   z-index: 99999;
@@ -671,6 +672,126 @@ footer h1{
   font-size:2rem;
   line-height:3.5rem;
 }
+
+@media (min-width: 1200px) and (max-width: 1681px){
+  .container{
+    max-width: 1082px;
+    padding:0px;
+  }
+  header nav{
+    padding:1rem 0;
+  }
+  header nav .right a{
+    font-size: 10px;
+  }
+  header nav .left img{
+    width: 70px;
+  }
+  .hero .right img {
+    width: 400px;
+    height:530px;
+    margin-top: 2rem;
+  }
+  .hero .left h1{
+    font-size:34px;
+    margin-left: 145px;
+    margin-top: 130px;  
+  }
+  .rectangle{
+    height:1px;
+    width: 70px;
+    margin-top: 250px;
+    margin-left: 147px;
+  }
+  .hero .left p{
+    font-size: 12px;
+    margin-left: 145px;
+    margin-top: 265px;
+  }
+  .hero .sociallinks{
+    margin-top:335px;
+    margin-left:135px;
+    position: absolute;
+  }
+  .hero .sociallinks a img{
+    width: 25px;
+    height: 25px;
+  }
+  .hero .sociallinks a{
+    padding:0.4rem;
+  }
+  .diff_about img{
+    width:7px;
+    margin-top: -2.2rem;
+  }
+  .text{
+    font-size:130px;
+    padding-top: 4rem;
+    padding-bottom:2rem;
+  }
+  .about .container img{
+    width:380px;
+    margin-left: 1rem;
+  }
+  .about .about-para{
+    font-size: 15px;
+    margin-left:90px;
+    position: unset;
+    line-height:1.4rem;
+    word-spacing: 1px;
+  }
+  /*changing uptop*/
+  .material-icons.md-48{
+    font-size: 35px;
+  }
+  #toTop{
+    width:35px;
+    height:35px;
+  }
+  .diff_exp img{
+    width:7px;
+  }
+  blockquote{
+    padding:1rem;
+    font-size:20px;
+  }
+  .container .timeline_class h1{
+    font-size:13px;
+  }
+  section.experience .card-wrapper{
+    left:0px;
+    margin-left: 3rem;
+    height: 225px;
+  }
+  section.experience .card-wrapper .right{
+    margin-top: 0px;
+    margin-left: 40px;
+  }
+  section.experience .card-wrapper .left img{
+    width:100px;
+  }
+  section.experience .card-wrapper .right h4{
+    font-size: 11px;
+    margin-bottom: 0.3rem;
+  }
+  section.experience .card-wrapper .right h2{
+    font-size: 20px;
+    padding-bottom:0.7rem;
+  }
+  section.experience .card-wrapper .right p{
+    font-size: 14px;
+    line-height:17px;
+    word-spacing: 2px;
+  }
+  section.experience .More_exp{
+    font-size:17px;
+  }
+  .diff_edu img{
+    padding:3rem auto;
+    width:7px;
+  }
+}
+
 /* @media (min-width:576px){
   .container {
     max-width:540px;  
@@ -711,10 +832,13 @@ footer h1{
   margin: 0 auto;
   }
 } */
-/* 
-@media (max-width:1024px){
+ 
+/* @media (max-width:1024px){
   header #main-nav{
     display: none;
+  }
+  .hamburger{
+    display: block;
   }
   .hero{
     padding-top: 10rem;
@@ -822,9 +946,9 @@ footer h1{
     font-size:18px;
     padding:2rem;
   }
-} */
+}
 
-/* @media (max-width:576px){
+@media (max-width:576px){
   .hero{
     flex-direction: column;
     padding-top:7rem;
@@ -978,4 +1102,9 @@ footer h1{
   footer h1{
     font-size:12px;
   }
+}
+
+@media (min-width: 1200px) and (max-width: 1680px){
+ 
+   
 } */
