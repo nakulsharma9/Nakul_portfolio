@@ -722,11 +722,11 @@ footer h1{
   }
   .diff_about img{
     width:7px;
-    margin-top: -2.2rem;
+    margin-top: -1.6rem;
   }
   .text{
     font-size:130px;
-    padding-top: 4rem;
+    padding-top: 4.2rem;
     padding-bottom:2rem;
   }
   .about .container img{
@@ -789,6 +789,90 @@ footer h1{
   .diff_edu img{
     padding:3rem auto;
     width:7px;
+  }
+  .container .grid .college{
+    padding:20px;
+    margin-top: 0px;
+    height:530px;
+    width:410px;
+  }
+  .container .grid .college img{
+    width:370px;
+  }
+  .container .grid .college h5 {
+    font-size: 11px;
+  }
+  .container .grid .college h3 {
+    font-size:15px;
+    padding-top:1rem;
+  }
+  .container .grid .college h2{
+    font-size: 14px;
+    padding: 1.5rem;
+  }
+  .container .grid .skills{
+    margin-top: 260px;
+    width: 480px;
+    height:270px;
+  }
+  .container .grid h3{
+    font-size: 23px;
+  }
+  .container .grid ul{
+    font-size: 13px;
+  }
+  .container .tagline{
+    font-size: 24px;
+    margin:2rem;
+  }
+  .card{
+    width: 250px;
+    height:256px;
+    margin:3rem;
+  }
+  .image img{
+    width: 100px;
+  }
+  .title{
+    padding:20px;
+  }
+  h1{
+    font-size:17px;
+  }
+  .tools h2{
+    font-size:20px;
+  }
+  .tools .toolgrid{
+    padding:2rem;
+  }
+  .tools .toolgrid img{
+    width: 70px;
+  }
+  .diff_getintouch img{
+    width:7px;
+  }
+  .contact p{
+    font-size: 14px;
+    padding:0.6rem;
+  }
+  .contact .dbtn{
+    height:60px;
+    width:180px;
+  }
+  .dbtnclass{
+    margin:1rem;
+  }
+  .c-card img{
+    width:85px;
+  }
+  .c-card a{
+    font-size: 12px;
+  }
+  footer h2{
+    font-size: 13px;
+  }
+  footer h1{
+    font-size:13px;
   }
 }
 
