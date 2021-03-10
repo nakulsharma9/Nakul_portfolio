@@ -875,9 +875,8 @@ footer h1{
     font-size:13px;
   }
 }
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
+/*media query - ipad pro */
+@media (max-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
     .container{
       max-width:1024px;
@@ -1065,6 +1064,134 @@ footer h1{
       margin-right:7rem;
     }
 }
+/*media query - ipad */
+@media (max-width:768px)
+  and (-webkit-min-device-pixel-ratio:1){
+    .container{
+      max-width: 768px;
+      padding: 0px;
+    }
+    header nav .right a{
+      font-size: 9px;
+    }
+    header nav .left img{
+      width: 70px;
+    }
+    .hero .left h1{
+      font-size: 27px;
+      margin-left:110px;
+      margin-top:90px;
+    }
+    .hero .right img{
+      width: 325px;
+      height:430px;
+    }
+    .rectangle{
+      height:1px;
+      width: 70px;
+      margin-top: 190px;
+      margin-left: 110px;
+    }
+    .hero .left p{
+      font-size: 10px;
+      margin-left: 110px;
+      margin-top: 205px;
+      position: relative;
+      margin-right:0px;
+    }
+    .hero .left p br{
+      display: none;
+    }
+    .hero .sociallinks{
+      margin-top:265px;
+      margin-left:100px;
+      position: absolute;
+    }
+    .hero .sociallinks a img{
+      width: 25px;
+      height: 25px;
+    }
+    .hero .sociallinks a{
+      padding:0.4rem;
+    }
+    .text{
+      font-size:110px;
+      padding-top: 4rem;
+      padding-bottom:2rem;
+    }
+    .about .container img{
+      width:320px;
+      margin-left: 1rem;
+    }
+    .about .about-para{
+      font-size: 15px;
+      margin-left:90px;
+      position: unset;
+      line-height:1.4rem;
+      word-spacing: 1px;
+    }
+    section.experience .card-wrapper{
+      left:0px;
+      margin-left: 3rem;
+      height: 250px;
+      width: 670px;
+    }
+    section.experience .card-wrapper .left img{
+      width:150px;
+    }
+    section.experience .card-wrapper .right{
+      margin-top: 0px;
+    }
+    section.experience .card-wrapper .right h4{
+      font-size: 13px;
+      margin-bottom: .6rem;
+    }
+    section.experience .card-wrapper .right h2{
+      font-size: 18px;
+      padding-bottom:0.7rem;
+    }
+    section.experience .card-wrapper .right p{
+      font-size: 11px;
+      line-height:17px;
+    }
+    .container .grid .college{
+      padding:20px;
+      margin-top: 0px;
+      height:500px;
+      width:360px;
+    }
+    .container .grid .college img{
+      width:320px;
+    }
+    .container .grid .college h5 {
+      font-size: 11px;
+    }
+    .container .grid .college h3 {
+      font-size:15px;
+      padding-top:1rem;
+    }
+    .container .grid .college h2{
+      font-size: 14px;
+      padding: 1rem;
+    }
+    .container .grid .skills{
+      margin-top: 260px;
+      margin-left:0.3rem;
+      width: 270px;
+      height:230px;
+      padding:0;
+    }
+    .container .grid h3{
+      font-size: 23px;
+    }
+    .container .grid ul{
+      font-size: 9px;
+      line-height:2rem;
+    }
+  }
+  @media (min-width:375px) and (max-width:768px){
+    
+  }
 
 /* @media (min-width:576px){
   .container {
