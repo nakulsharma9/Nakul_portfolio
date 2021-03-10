@@ -672,7 +672,7 @@ footer h1{
   font-size:2rem;
   line-height:3.5rem;
 }
-
+/*adding media query for desktop over 1200 to 1681 px*/
 @media (min-width: 1200px) and (max-width: 1681px){
   .container{
     max-width: 1082px;
@@ -874,6 +874,196 @@ footer h1{
   footer h1{
     font-size:13px;
   }
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .container{
+      max-width:1024px;
+      padding:0px;
+    }
+    header nav .right a{
+      font-size: 10px;
+    }
+    header nav .left img{
+      width: 70px;
+    }
+    .hero .left h1{
+      font-size: 30px;
+      margin-left:130px;
+      margin-top:90px;
+    }
+    .hero .right img{
+      width: 325px;
+      height:430px;
+    }
+    .rectangle{
+      height:1px;
+      width: 70px;
+      margin-top: 200px;
+      margin-left: 130px;
+    }
+    .hero .left p{
+      font-size: 11px;
+      margin-left: 130px;
+      margin-top: 215px;
+      margin-right:0px;
+    }
+    .hero .sociallinks{
+      margin-top:285px;
+      margin-left:120px;
+      position: absolute;
+    }
+    .hero .sociallinks a img{
+      width: 25px;
+      height: 25px;
+    }
+    .hero .sociallinks a{
+      padding:0.4rem;
+    }
+    .diff_about img{
+      width:7px;
+      margin-top: -2.3rem;
+    }
+    .text{
+      font-size:130px;
+      padding-top: 4.2rem;
+      padding-bottom:2rem;
+    }
+    .about .container img{
+      width:380px;
+      margin-left: 1rem;
+    }
+    .about .about-para{
+      font-size: 15px;
+      margin-left:90px;
+      position: unset;
+      line-height:1.4rem;
+      word-spacing: 1px;
+    }
+    .diff_exp img{
+      width:7px;
+    }
+    blockquote{
+      padding:1rem;
+      font-size:20px;
+    }
+    .container .timeline_class h1{
+      font-size:13px;
+    }
+    section.experience .card-wrapper{
+      left:0px;
+      margin-left: 3rem;
+      height: 300px;
+      width: 920px;
+    }
+    section.experience .card-wrapper .left img{
+      width:190px;
+    }
+    section.experience .card-wrapper .right h4{
+      font-size: 15px;
+      margin-bottom: .8rem;
+    }
+    section.experience .card-wrapper .right h2{
+      font-size: 20px;
+      padding-bottom:0.7rem;
+    }
+    section.experience .card-wrapper .right p{
+      font-size: 14px;
+      line-height:17px;
+    }
+    .diff_edu img{
+      padding:3rem auto;
+      width:7px;
+    }
+    .container .grid .college{
+      padding:20px;
+      margin-top: 0px;
+      height:530px;
+      width:410px;
+    }
+    .container .grid .college img{
+      width:370px;
+    }
+    .container .grid .college h5 {
+      font-size: 11px;
+    }
+    .container .grid .college h3 {
+      font-size:15px;
+      padding-top:1rem;
+    }
+    .container .grid .college h2{
+      font-size: 14px;
+      padding: 1.5rem;
+    }
+    .container .grid .skills{
+      margin-top: 260px;
+      width: 480px;
+      height:270px;
+    }
+    .container .grid h3{
+      font-size: 23px;
+    }
+    .container .grid ul{
+      font-size: 13px;
+    }
+    .container .tagline{
+      font-size: 24px;
+      margin:2rem;
+    }
+    .card{
+      width: 250px;
+      height:256px;
+      margin:3rem;
+    }
+    .image img{
+      width: 100px;
+    }
+    .title{
+      padding:20px;
+    }
+    h1{
+      font-size:17px;
+    }
+    .tools h2{
+      font-size:20px;
+      margin-top:2rem;
+    }
+    .tools .toolgrid{
+      padding:2rem;
+    }
+    .tools .toolgrid img{
+      width: 70px;
+    }
+    .diff_getintouch img{
+      width:7px;
+    }
+    .contact p{
+      font-size: 14px;
+      padding:0.6rem;
+    }
+    .contact .dbtn{
+      height:60px;
+      width:180px;
+    }
+    .dbtnclass{
+      margin:1rem;
+    }
+    .c-card img{
+      width:85px;
+    }
+    .c-card a{
+      font-size: 12px;
+    }
+    footer h2{
+      font-size: 13px;
+      margin-left:7rem;
+    }
+    footer h1{
+      font-size:13px;
+      margin-right:7rem;
+    }
 }
 
 /* @media (min-width:576px){
