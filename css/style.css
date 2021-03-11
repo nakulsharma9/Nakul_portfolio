@@ -1189,7 +1189,230 @@ footer h1{
       line-height:2rem;
     }
   }
-  @media (min-width:375px) and (max-width:768px){
+  @media (min-width:375px) and (max-width:765px){
+    header #main-nav{
+      display: none;
+    }
+    container{
+      width: 375px;
+      overflow-y: hidden;
+      padding: 0px;
+      padding-top: 2rem;
+    }
+    .hero{
+      flex-direction: column;
+      padding-top:3rem;
+    }
+    .hamburger{
+      position:absolute;
+      top:5px;
+      right:20px;
+      background-color: var(--background);
+      color:var(--lightwhite);
+      border:none;
+      cursor: pointer;
+    }
+    .hamburger{
+      display: block;
+    }
+    .hero .left h1{
+      padding:0.6rem;
+      z-index: 9999;
+      margin-top:7rem;
+      margin-left: 0;
+      font-size:21px;
+    }
+    .rectangle{
+      margin-left:0px;
+      z-index: 9999;
+      margin-top:200px; 
+      margin-left:11px;
+    }
+    .hero .right img{
+      width: 295px;
+      height:400px;
+      opacity: 0.4;
+      margin-right:-40px;
+      margin-top:4rem;
+    }
+    .hero .left p{
+      margin-left:0px;
+      position: absolute;
+      z-index: 9999;
+      font-size:8px;
+      font-weight: 100;
+      margin-top:208px;
+      margin-left:11px;
+      word-spacing: 0.1rem;
+      padding-right: 12rem;
+      color:var(--lightwhite);
+    }
+    .hero .sociallinks{
+      padding-left:0;
+      margin-left:2px;
+      z-index: 9999;
+      margin-top:265px;
+    }
+    .diff_about img{
+      width:5px;
+      margin-top: -3rem;
+      margin-bottom: 2.5rem;
+    }
+    .text{
+      font-size:55px;
+      margin-top:1rem;
+      padding-bottom: 30px;
+    }
+    .about .about-para{
+      position:absolute;
+      z-index: 9999;
+      padding:1rem;
+      font-size:12px;
+      margin-left:0px;
+      margin-top:0px;
+    }
+    .about .container img{
+      margin-left:-140px;
+      opacity: 0.4;
+      word-spacing:0px;
+    }
+    .diff_exp img{
+      width: 5px;
+      margin-top:6rem;
+    }
+    blockquote{
+      padding: 0.6rem;
+      padding-bottom: 1rem;
+      width:100%;
+    }blockquote::before{
+      font-size:30px;
+      padding: .4rem;
+    }
+    blockquote::after{
+      font-size:30px;
+      padding: .4rem;
+    }
+    .container .timeline_class{
+      margin-bottom:2rem;
+    }
+    section.experience .card-wrapper{
+      align-items:unset;
+      width:300px;
+      height:400px; 
+      margin-left:0px;
+      flex-direction:column;
+      left:35px;
+      text-align: center;
+    }
+    section.experience .card-wrapper .left img{
+      margin-top:-50px;
+    }
+    section.experience .card-wrapper .right h4{
+      margin-bottom: .3rem;
+      margin-left:-45px;
+    }
+    section.experience .card-wrapper .right h2{
+      font-size:18px;
+      margin-left:-45px;
+      padding-bottom:1rem;
+    }
+    section.experience .card-wrapper .right p{
+      font-size: 12px;
+      padding:0;
+      margin-left:-45px;
+      line-height: 15px;
+    }
+    section.experience .card-wrapper .right p br{
+      display:none;
+    }
+    .diff_edu img{
+      width: 5px;
+      margin-top:6rem;
+    }
+    section.experience .More_exp{
+      margin:20px auto;
+    }
+    .container .grid .college{
+      transform: unset;
+      padding:10px;
+      margin-top: 0px;
+      height:500px;
+      margin-left:10px;
+      width:330px;
+      margin-left:23px;
+    }
+    .container .grid .college img{
+      width:310px;
+      padding:1rem;
+      justify-content: center;
+    }
+    .edu-wrap{
+      flex-direction: column;
+    }
+    .container .grid .skills{
+      margin-top: 2rem;
+      margin-left:3.3rem;
+      transform:translate(0);
+      width: 270px;
+      height:230px;
+      padding:0;
+    }
+    .container .tagline{
+      margin-bottom:1rem;
+    }
+    .card{
+      margin:1.5rem;
+      width: 280px;
+      height: 250px;
+    }
+    .tools h2{
+      font-size:25px;
+      margin-top:3rem;
+    }
+    .tools .toolgrid{
+      margin-top:0;
+    }
+    .tools .toolgrid img{
+      width: 40px;
+    }
+    .contact p{
+      font-size: 12px;
+      padding:1rem;
+      line-height:1rem;
+    }
+    .contact p br{
+      display:none;
+    }
+    .contact .dbtn{
+      height:60px;
+      width:180px;
+    }
+    .dbtnclass{
+      margin:1rem;
+    }
+    .c-card img{
+      width:75px;
+    }
+    .c-card a{
+      font-size: 9px;
+    }
+    footer h2{
+      font-size: 13px;
+      margin-left:0rem;
+    }
+    footer h1{
+      font-size:13px;
+      margin-right:0rem;
+    }
+    .material-icons.md-48{
+      font-size: 32px;
+    }
+    #toTop{
+      width:31.5px;
+      height:31.5px;
+      bottom:30px;
+      right:10px;
+    }
     
   }
 
