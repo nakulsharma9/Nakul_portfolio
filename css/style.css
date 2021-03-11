@@ -1195,9 +1195,12 @@ footer h1{
     }
     container{
       width: 375px;
-      overflow-y: hidden;
       padding: 0px;
       padding-top: 2rem;
+    }
+    body{
+      width:100%;
+      overflow-x: hidden;
     }
     .hero{
       flex-direction: column;
@@ -1413,7 +1416,6 @@ footer h1{
       bottom:30px;
       right:10px;
     }
-    
   }
 
 /* @media (min-width:576px){
