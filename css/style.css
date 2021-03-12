@@ -1196,16 +1196,14 @@ footer h1{
     container{
       width: 375px;
       padding: 0px;
-      padding-top: 2rem;
+      /* padding-top: 2rem; */
     }
     body{
       /* width:100%; */
       overflow-x: hidden;
     }
     AOS.init{
-      {
         offset: 220;
-      }
     }
     .hero{
       flex-direction: column;
