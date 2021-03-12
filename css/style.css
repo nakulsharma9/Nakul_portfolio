@@ -110,6 +110,9 @@ header nav {
   transform:translate(0%,0%);
   }
 }
+.Logo-out img{
+  display: none; 
+}
 .hero .left span {
   color: var(--maintext);
   font-family: Raleway;
@@ -1200,9 +1203,14 @@ footer h1{
       margin: 0;
       /* padding-top: 2rem; */
     }
+    .Logo-out img{
+      width:65px;
+      display: block;
+      transform:translateY(42px);
+    }
     .hero{
       flex-direction: column;
-      padding-top:3rem;
+      padding-top:0rem;
     }
     .hamburger{
       position:absolute;
