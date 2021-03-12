@@ -1199,8 +1199,13 @@ footer h1{
       padding-top: 2rem;
     }
     body{
-      width:100%;
+      /* width:100%; */
       overflow-x: hidden;
+    }
+    AOS.init{
+      {
+        offset: 220;
+      }
     }
     .hero{
       flex-direction: column;
