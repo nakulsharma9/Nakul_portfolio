@@ -17,8 +17,6 @@ body {
   font-family: 'Yesteryear', cursive;
   font-family: "Raleway", sans-serif;
   background-color: var(--background);
-  width:100%;
-  
 }
 html{
   scroll-behavior: smooth;
@@ -250,6 +248,9 @@ section.experience {
 .diff_exp {
   transform: translate(0px, 58px);
 }
+.container exp{
+  text-align: center;
+}
 blockquote {
   display: block;
   text-align: center;
@@ -292,7 +293,6 @@ section.experience .card-wrapper {
   justify-content: center;
   padding: 50px auto;
   left: 170px;
-  transform: translate();
   border-radius: 10px;
   box-shadow: 0px 0px 38px var(--boxes_rect_text_lighter);
   height: 300px;
@@ -628,8 +628,6 @@ footer h1{
 }
 .hamburger{
   position:absolute;
-  top:10px;
-  right:20px;
   background-color: var(--background);
   color:var(--lightwhite);
   border:none;
@@ -646,22 +644,27 @@ footer h1{
   height:100%;
   padding:3rem;
   padding-top: 4rem;
-  transform:translateX(-100%);
-  transition:all .5s ease-in-out;
+  transform:translateY(-100%);
+}
+.menu{
+  height: 0;
+  transition: height 0.3s;
 }
 .open{
   transform: translateX(0);
+  transition:ease-in-out 0.5s;
 }
 .times{
   position: fixed;
-  top:10px;
-  right:10px;
+  top:1rem;
+  right:2.5rem;
   border:none;
   background:none;
   outline: none;
   color:var(--lightwhite);
   border:none;
   cursor: pointer;
+  width:2rem;
 }
 .mobile-nav ul{
   list-style-type: none;
@@ -883,756 +886,425 @@ footer h1{
 /*media query - ipad pro */
 @media (max-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
-    .container{
-      max-width:1024px;
-      padding:0px;
-    }
-    header nav .right a{
-      font-size: 10px;
-    }
-    header nav .left img{
-      width: 70px;
-    }
-    .hero .left h1{
-      font-size: 30px;
-      margin-left:130px;
-      margin-top:90px;
-    }
-    .hero .right img{
-      width: 325px;
-      height:430px;
-    }
-    .rectangle{
-      height:1px;
-      width: 70px;
-      margin-top: 200px;
-      margin-left: 130px;
-    }
-    .hero .left p{
-      font-size: 11px;
-      margin-left: 130px;
-      margin-top: 215px;
-      margin-right:0px;
-    }
-    .hero .sociallinks{
-      margin-top:285px;
-      margin-left:120px;
-      position: absolute;
-    }
-    .hero .sociallinks a img{
-      width: 25px;
-      height: 25px;
-    }
-    .hero .sociallinks a{
-      padding:0.4rem;
-    }
-    .diff_about img{
-      width:7px;
-      margin-top: -2.3rem;
-    }
-    .text{
-      font-size:130px;
-      padding-top: 4.2rem;
-      padding-bottom:2rem;
-    }
-    .about .container img{
-      width:380px;
-      margin-left: 1rem;
-    }
-    .about .about-para{
-      font-size: 15px;
-      margin-left:90px;
-      position: unset;
-      line-height:1.4rem;
-      word-spacing: 1px;
-    }
-    .diff_exp img{
-      width:7px;
-    }
-    blockquote{
-      padding:1rem;
-      font-size:20px;
-    }
-    .container .timeline_class h1{
-      font-size:13px;
-    }
-    section.experience .card-wrapper{
-      left:0px;
-      margin-left: 3rem;
-      height: 300px;
-      width: 920px;
-    }
-    section.experience .card-wrapper .left img{
-      width:190px;
-    }
-    section.experience .card-wrapper .right h4{
-      font-size: 15px;
-      margin-bottom: .8rem;
-    }
-    section.experience .card-wrapper .right h2{
-      font-size: 20px;
-      padding-bottom:0.7rem;
-    }
-    section.experience .card-wrapper .right p{
-      font-size: 14px;
-      line-height:17px;
-    }
-    .diff_edu img{
-      padding:3rem auto;
-      width:7px;
-    }
-    .container .grid .college{
-      padding:20px;
-      margin-top: 0px;
-      height:530px;
-      width:410px;
-    }
-    .container .grid .college img{
-      width:370px;
-    }
-    .container .grid .college h5 {
-      font-size: 11px;
-    }
-    .container .grid .college h3 {
-      font-size:15px;
-      padding-top:1rem;
-    }
-    .container .grid .college h2{
-      font-size: 14px;
-      padding: 1.5rem;
-    }
-    .container .grid .skills{
-      margin-top: 260px;
-      width: 480px;
-      height:270px;
-    }
-    .container .grid h3{
-      font-size: 23px;
-    }
-    .container .grid ul{
-      font-size: 13px;
-    }
-    .container .tagline{
-      font-size: 24px;
-      margin:2rem;
-    }
-    .card{
-      width: 250px;
-      height:256px;
-      margin:3rem;
-    }
-    .image img{
-      width: 100px;
-    }
-    .title{
-      padding:20px;
-    }
-    h1{
-      font-size:17px;
-    }
-    .tools h2{
-      font-size:20px;
-      margin-top:2rem;
-    }
-    .tools .toolgrid{
-      padding:2rem;
-    }
-    .tools .toolgrid img{
-      width: 70px;
-    }
-    .diff_getintouch img{
-      width:7px;
-    }
-    .contact p{
-      font-size: 14px;
-      padding:0.6rem;
-    }
-    .contact .dbtn{
-      height:60px;
-      width:180px;
-    }
-    .dbtnclass{
-      margin:1rem;
-    }
-    .c-card img{
-      width:85px;
-    }
-    .c-card a{
-      font-size: 12px;
-    }
-    footer h2{
-      font-size: 13px;
-      margin-left:7rem;
-    }
-    footer h1{
-      font-size:13px;
-      margin-right:7rem;
-    }
+  .container{
+    max-width:1024px;
+    padding:0px;
+  }
+  header nav .right a{
+    font-size: 10px;
+  }
+  header nav .left img{
+    width: 70px;
+  }
+  .hero .left h1{
+    font-size: 30px;
+    margin-left:130px;
+    margin-top:90px;
+  }
+  .hero .right img{
+    width: 325px;
+    height:430px;
+  }
+  .rectangle{
+    height:1px;
+    width: 70px;
+    margin-top: 200px;
+    margin-left: 130px;
+  }
+  .hero .left p{
+    font-size: 11px;
+    margin-left: 130px;
+    margin-top: 215px;
+    margin-right:0px;
+  }
+  .hero .sociallinks{
+    margin-top:285px;
+    margin-left:120px;
+    position: absolute;
+  }
+  .hero .sociallinks a img{
+    width: 25px;
+    height: 25px;
+  }
+  .hero .sociallinks a{
+    padding:0.4rem;
+  }
+  .diff_about img{
+    width:7px;
+    margin-top: -2.3rem;
+  }
+  .text{
+    font-size:130px;
+    padding-top: 4.2rem;
+    padding-bottom:2rem;
+  }
+  .about .container img{
+    width:380px;
+    margin-left: 1rem;
+  }
+  .about .about-para{
+    font-size: 15px;
+    margin-left:90px;
+    position: unset;
+    line-height:1.4rem;
+    word-spacing: 1px;
+  }
+  .diff_exp img{
+    width:7px;
+  }
+  blockquote{
+    padding:1rem;
+    font-size:20px;
+  }
+  .container .timeline_class h1{
+    font-size:13px;
+  }
+  section.experience .card-wrapper{
+    left:0px;
+    margin-left: 3rem;
+    height: 300px;
+    width: 920px;
+  }
+  section.experience .card-wrapper .left img{
+    width:190px;
+  }
+  section.experience .card-wrapper .right h4{
+    font-size: 15px;
+    margin-bottom: .8rem;
+  }
+  section.experience .card-wrapper .right h2{
+    font-size: 20px;
+    padding-bottom:0.7rem;
+  }
+  section.experience .card-wrapper .right p{
+    font-size: 14px;
+    line-height:17px;
+  }
+  .diff_edu img{
+    padding:3rem auto;
+    width:7px;
+  }
+  .container .grid .college{
+    padding:20px;
+    margin-top: 0px;
+    height:530px;
+    width:410px;
+  }
+  .container .grid .college img{
+    width:370px;
+  }
+  .container .grid .college h5 {
+    font-size: 11px;
+  }
+  .container .grid .college h3 {
+    font-size:15px;
+    padding-top:1rem;
+  }
+  .container .grid .college h2{
+    font-size: 14px;
+    padding: 1.5rem;
+  }
+  .container .grid .skills{
+    margin-top: 260px;
+    width: 480px;
+    height:270px;
+  }
+  .container .grid h3{
+    font-size: 23px;
+  }
+  .container .grid ul{
+    font-size: 13px;
+  }
+  .container .tagline{
+    font-size: 24px;
+    margin:2rem;
+  }
+  .card{
+    width: 250px;
+    height:256px;
+    margin:3rem;
+  }
+  .image img{
+    width: 100px;
+  }
+  .title{
+    padding:20px;
+  }
+  h1{
+    font-size:17px;
+  }
+  .tools h2{
+    font-size:20px;
+    margin-top:2rem;
+  }
+  .tools .toolgrid{
+    padding:2rem;
+  }
+  .tools .toolgrid img{
+    width: 70px;
+  }
+  .diff_getintouch img{
+    width:7px;
+  }
+  .contact p{
+    font-size: 14px;
+    padding:0.6rem;
+  }
+  .contact .dbtn{
+    height:60px;
+    width:180px;
+  }
+  .dbtnclass{
+    margin:1rem;
+  }
+  .c-card img{
+    width:85px;
+  }
+  .c-card a{
+    font-size: 12px;
+  }
+  footer h2{
+    font-size: 13px;
+    margin-left:7rem;
+  }
+  footer h1{
+    font-size:13px;
+    margin-right:7rem;
+  }
 }
 /*media query - ipad */
 @media (max-width:768px)
   and (-webkit-min-device-pixel-ratio:1){
-    .container{
-      max-width: 768px;
-      padding: 0px;
-    }
-    header nav .right a{
-      font-size: 9px;
-    }
-    header nav .left img{
-      width: 70px;
-    }
-    .hero .left h1{
-      font-size: 27px;
-      margin-left:110px;
-      margin-top:90px;
-    }
-    .hero .right img{
-      width: 325px;
-      height:430px;
-    }
-    .rectangle{
-      height:1px;
-      width: 70px;
-      margin-top: 190px;
-      margin-left: 110px;
-    }
-    .hero .left p{
-      font-size: 10px;
-      margin-left: 110px;
-      margin-top: 205px;
-      position: relative;
-      margin-right:0px;
-    }
-    .hero .left p br{
-      display: none;
-    }
-    .hero .sociallinks{
-      margin-top:265px;
-      margin-left:100px;
-      position: absolute;
-    }
-    .hero .sociallinks a img{
-      width: 25px;
-      height: 25px;
-    }
-    .hero .sociallinks a{
-      padding:0.4rem;
-    }
-    .text{
-      font-size:110px;
-      padding-top: 4rem;
-      padding-bottom:2rem;
-    }
-    .about .container img{
-      width:320px;
-      margin-left: 1rem;
-    }
-    .about .about-para{
-      font-size: 15px;
-      margin-left:90px;
-      position: unset;
-      line-height:1.4rem;
-      word-spacing: 1px;
-    }
-    section.experience .card-wrapper{
-      left:0px;
-      margin-left: 3rem;
-      height: 250px;
-      width: 670px;
-    }
-    section.experience .card-wrapper .left img{
-      width:150px;
-    }
-    section.experience .card-wrapper .right{
-      margin-top: 0px;
-    }
-    section.experience .card-wrapper .right h4{
-      font-size: 13px;
-      margin-bottom: .6rem;
-    }
-    section.experience .card-wrapper .right h2{
-      font-size: 18px;
-      padding-bottom:0.7rem;
-    }
-    section.experience .card-wrapper .right p{
-      font-size: 11px;
-      line-height:17px;
-    }
-    .container .grid .college{
-      padding:20px;
-      margin-top: 0px;
-      height:500px;
-      width:360px;
-    }
-    .container .grid .college img{
-      width:320px;
-    }
-    .container .grid .college h5 {
-      font-size: 11px;
-    }
-    .container .grid .college h3 {
-      font-size:15px;
-      padding-top:1rem;
-    }
-    .container .grid .college h2{
-      font-size: 14px;
-      padding: 1rem;
-    }
-    .container .grid .skills{
-      margin-top: 260px;
-      margin-left:0.3rem;
-      width: 270px;
-      height:230px;
-      padding:0;
-    }
-    .container .grid h3{
-      font-size: 23px;
-    }
-    .container .grid ul{
-      font-size: 9px;
-      line-height:2rem;
-    }
+  .container{
+    max-width: 768px;
+    padding: 0px;
   }
-  @media (min-width:375px) and (max-width:765px){
-    header #main-nav{
-      display: none;
-    }
-    container{
-      width: 375px;
-      padding: 0px;
-      margin: 0;
-    }
-    .Logo-out img{
-      width:65px;
-      display: block;
-      transform:translateY(42px);
-    }
-    .hero{
-      flex-direction: column;
-      padding-top:0rem;
-    }
-    .hamburger{
-      position:absolute;
-      top:5px;
-      right:20px;
-      background-color: var(--background);
-      color:var(--lightwhite);
-      border:none;
-      cursor: pointer;
-    }
-    .hamburger{
-      display: block;
-    }
-    .hero .left h1{
-      padding:0.6rem;
-      z-index: 9999;
-      margin-top:7rem;
-      margin-left: 0;
-      font-size:21px;
-    }
-    .rectangle{
-      margin-left:0px;
-      z-index: 9999;
-      margin-top:200px; 
-      margin-left:11px;
-    }
-    .hero .right img{
-      width: 295px;
-      height:400px;
-      opacity: 0.4;
-      margin-right:-40px;
-      margin-top:4rem;
-    }
-    .hero .left p{
-      margin-left:0px;
-      position: absolute;
-      z-index: 9999;
-      font-size:8px;
-      font-weight: 100;
-      margin-top:208px;
-      margin-left:11px;
-      word-spacing: 0.1rem;
-      padding-right: 12rem;
-      color:var(--lightwhite);
-    }
-    .hero .sociallinks{
-      padding-left:0;
-      margin-left:2px;
-      z-index: 9999;
-      margin-top:265px;
-    }
-    .diff_about img{
-      width:5px;
-      margin-top: -3rem;
-      margin-bottom: 2.5rem;
-    }
-    .text{
-      font-size:55px;
-      margin-top:10px;
-      padding-bottom: 30px;
-    }
-    .about .about-para{
-      position:absolute;
-      z-index: 9999;
-      padding:1rem;
-      font-size:12px;
-      margin-left:0px;
-      margin-top:0px;
-    }
-    .about .container img{
-      margin-left:-140px;
-      opacity: 0.4;
-      word-spacing:0px;
-    }
-    .diff_exp img{
-      width: 5px;
-      margin-top:6rem;
-    }
-    blockquote{
-      padding: 0.6rem;
-      padding-bottom: 1rem;
-      width:100%;
-    }blockquote::before{
-      font-size:30px;
-      padding: .4rem;
-    }
-    blockquote::after{
-      font-size:30px;
-      padding: .4rem;
-    }
-    .container .timeline_class{
-      margin-bottom:2rem;
-    }
-    section.experience .card-wrapper{
-      align-items:unset;
-      width:300px;
-      height:400px; 
-      margin-left:0px;
-      flex-direction:column;
-      left:35px;
-      text-align: center;
-    }
-    section.experience .card-wrapper .left img{
-      margin-top:-50px;
-    }
-    section.experience .card-wrapper .right h4{
-      margin-bottom: .3rem;
-      margin-left:-45px;
-    }
-    section.experience .card-wrapper .right h2{
-      font-size:18px;
-      margin-left:-45px;
-      padding-bottom:1rem;
-    }
-    section.experience .card-wrapper .right p{
-      font-size: 12px;
-      padding:0;
-      margin-left:-45px;
-      line-height: 15px;
-    }
-    section.experience .card-wrapper .right p br{
-      display:none;
-    }
-    .diff_edu img{
-      width: 5px;
-      margin-top:6rem;
-    }
-    section.experience .More_exp{
-      margin:20px auto;
-    }
-    .container .grid .college{
-      transform: unset;
-      padding:10px;
-      margin-top: 0px;
-      height:500px;
-      margin-left:10px;
-      width:330px;
-      margin-left:23px;
-    }
-    .container .grid .college img{
-      width:310px;
-      padding:1rem;
-      justify-content: center;
-    }
-    .edu-wrap{
-      flex-direction: column;
-    }
-    .container .grid .skills{
-      margin-top: 2rem;
-      margin-left:3.3rem;
-      transform:translate(0);
-      width: 270px;
-      height:230px;
-      padding:0;
-    }
-    .container .tagline{
-      margin-bottom:1rem;
-    }
-    .card{
-      margin:1.5rem;
-      width: 280px;
-      height: 250px;
-    }
-    .tools h2{
-      font-size:25px;
-      margin-top:3rem;
-    }
-    .tools .toolgrid{
-      margin-top:0;
-    }
-    .tools .toolgrid img{
-      width: 40px;
-    }
-    .contact p{
-      font-size: 12px;
-      padding:1rem;
-      line-height:1rem;
-    }
-    .contact p br{
-      display:none;
-    }
-    .contact .dbtn{
-      height:60px;
-      width:180px;
-    }
-    .dbtnclass{
-      margin:1rem;
-    }
-    .c-card img{
-      width:75px;
-    }
-    .c-card a{
-      font-size: 9px;
-    }
-    footer h2{
-      font-size: 13px;
-      margin-left:0rem;
-    }
-    footer h1{
-      font-size:13px;
-      margin-right:0rem;
-    }
-    .material-icons.md-48{
-      font-size: 32px;
-    }
-    #toTop{
-      width:31.5px;
-      height:31.5px;
-      bottom:30px;
-      right:10px;
-    }
+  header nav .right a{
+    font-size: 9px;
   }
-
-/* @media (min-width:576px){
-  .container {
-    max-width:540px;  
+  header nav .left img{
+    width: 70px;
+  }
+  .hero .left h1{
+    font-size: 27px;
+    margin-left:110px;
+    margin-top:90px;
+  }
+  .hero .right img{
+    width: 325px;
+    height:430px;
+  }
+  .rectangle{
+    height:1px;
+    width: 70px;
+    margin-top: 190px;
+    margin-left: 110px;
+  }
+  .hero .left p{
+    font-size: 10px;
+    margin-left: 110px;
+    margin-top: 205px;
+    position: relative;
+    margin-right:0px;
+  }
+  .hero .left p br{
+    display: none;
+  }
+  .hero .sociallinks{
+    margin-top:265px;
+    margin-left:100px;
+    position: absolute;
+  }
+  .hero .sociallinks a img{
+    width: 25px;
+    height: 25px;
+  }
+  .hero .sociallinks a{
+    padding:0.4rem;
+  }
+  .text{
+    font-size:110px;
+    padding-top: 4rem;
+    padding-bottom:2rem;
+  }
+  .about .container img{
+    width:320px;
+    margin-left: 1rem;
+  }
+  .about .about-para{
+    font-size: 15px;
+    margin-left:90px;
+    position: unset;
+    line-height:1.4rem;
+    word-spacing: 1px;
+  }
+  section.experience .card-wrapper{
+    left:0px;
+    margin-left: 3rem;
+    height: 250px;
+    width: 670px;
+  }
+  section.experience .card-wrapper .left img{
+    width:150px;
+  }
+  section.experience .card-wrapper .right{
+    margin-top: 0px;
+  }
+  section.experience .card-wrapper .right h4{
+    font-size: 13px;
+    margin-bottom: .6rem;
+  }
+  section.experience .card-wrapper .right h2{
+    font-size: 18px;
+    padding-bottom:0.7rem;
+  }
+  section.experience .card-wrapper .right p{
+    font-size: 11px;
+    line-height:17px;
+  }
+  .container .grid .college{
+    padding:20px;
+    margin-top: 0px;
+    height:500px;
+    width:360px;
+  }
+  .container .grid .college img{
+    width:320px;
+  }
+  .container .grid .college h5 {
+    font-size: 11px;
+  }
+  .container .grid .college h3 {
+    font-size:15px;
+    padding-top:1rem;
+  }
+  .container .grid .college h2{
+    font-size: 14px;
+    padding: 1rem;
+  }
+  .container .grid .skills{
+    margin-top: 260px;
+    margin-left:0.3rem;
+    width: 270px;
+    height:230px;
+    padding:0;
+  }
+  .container .grid h3{
+    font-size: 23px;
+  }
+  .container .grid ul{
+    font-size: 9px;
+    line-height:2rem;
   }
 }
-
-@media (min-width:768px){
-  .container {
-    max-width:720px;  
-
-  }
-}
-
-@media (min-width:992px){
-  .container {
-    max-width:960px;  
-
-  }
-}
-
-@media (min-width:1200px){
-  .container {
-    max-width:1152px;  
-
-  }
-}
-@media(min-width:1336px){
-  .container {
-    max-width: 1182px;
-  padding: 0 15px;
-  margin: 0 auto;
-  }
-}
-@media(min-width:1600px){
-  .container {
-    max-width: 1382px;
-  padding: 0 15px;
-  margin: 0 auto;
-  }
-} */
- 
-/* @media (max-width:1024px){
+@media (min-width:375px) and (max-width:765px){
   header #main-nav{
     display: none;
+  }
+  container{
+    width: 375px;
+    padding: 0px;
+    margin: 0;
+  }
+  .Logo-out img{
+    width:60px;
+    display: block;
+    transform:translateY(45px);
+    margin: 1rem;
+    padding:0.3rem;
+  }
+  .hamburger{
+    position:absolute;
+    top:5px;
+    right:20px;
+    background-color: var(--background);
+    color:var(--lightwhite);
+    border:none;
+    cursor: pointer;
   }
   .hamburger{
     display: block;
   }
   .hero{
-    padding-top: 10rem;
-  }
-  .hero .right img{
-    width: 550px;
-    margin-right:-40px;
-  }
-  .hero .left h1{
-    font-size:38px;
-    margin-left:0;
-    line-height: 1.1;
-    margin-top: 2px;
-    padding:2rem;
-    font-weight: 300;
-  }
-  .rectangle{
-    margin-top: 180px;
-    margin-left: 40px;
-    height: 2px;
-    width: 125px;
-    position: absolute;
-  }
-  .hero .left p{
-    margin-left: 35px;
-    margin-right: 0px;
-    font-size:12px;
-    color:#E5E5E5;
-    font-weight: 100;
-    margin-top:200px;
-    position:absolute;
-  }
-  .hero .sociallinks{
-    padding-right: 0px;
-    margin-top: 285px;
-    padding-left:18px;
-    position: absolute;
-  }
-  .about .about-para{
-    font-size: 17px;
-    margin-left:10px;
-  }
-  .text{
-    font-size: 100px;
-    padding-top:6rem;
-    padding-bottom: 3rem;
-  }
-  .about .container img{
-    width:400px;
-  }
-  blockquote{
-    padding: 0rem;
-    font-size:19px;
-  }
-  blockquote::before{
-    font-size:30px;
-  }
-  blockquote::after{
-    font-size:30px;
-  }
-  section.experience .card-wrapper{
-    position:static;
-  }
-  section.experience .card-wrapper .right{
-    margin-left:0px;
-    margin-top:0;
-  }
-  .container .grid .college{
-    padding:0px;
-    height: 470px;
-    width: 360px;
-  }
-  .container .grid .college img{
-    width:357px;
-  }
-  .container .grid .college h5{
-    font-size:10px;
-    padding-bottom: 0px;
-  }
-  .container .grid .college h3{
-    font-size: 15px;
-    padding-bottom:0px;
-  }
-  .container .grid .skills{
-    margin-left:0px;
-    height: 370px;
-    width:270px;
-    padding:20px;
-    margin-top:10px;
-  }
-  .container .grid ul{
-    font-size:12px;
-  }
-  .card{
-    margin:3rem;
-  }
-  .tools h2{
-    font-size: 25px;
-    padding-bottom:3rem;
-  }
-  .tools .toolgrid{
-    padding:0;
-  }
-  .contact p{
-    font-size:18px;
-    padding:2rem;
-  }
-}
-
-@media (max-width:576px){
-  .hero{
     flex-direction: column;
-    padding-top:7rem;
-  }
-  .hero .right img{
-    width: 350px;
-    opacity: 0.5;
-    margin-right:-190px;
-    margin-top:-2rem;
+    padding-top:0rem;
+    display: block;
+    margin: 1rem auto;
+    padding: 1rem;
   }
   .hero .left h1{
-    padding:0rem;
+    padding:0.6rem;
     z-index: 9999;
-    margin-top:3rem;
-    font-size:23px;
+    margin-top:7rem;
+    margin-left: 0.5rem;
+    font-size:1.3rem;
   }
   .rectangle{
-    margin-left:0px;
+    margin-left:0;
     z-index: 9999;
-    margin-top:130px; 
+    margin-top:12rem; 
+    margin-left:1.2rem;
+  }
+  .hero .right img{
+    width: 295px;
+    height:400px;
+    opacity: 0.4;
+    margin-right:-4rem;
+    margin-top:4rem;
   }
   .hero .left p{
     margin-left:0px;
+    position: absolute;
     z-index: 9999;
-    font-size:10px;
-    margin-top:145px;
+    font-size:0.5rem;
+    font-weight: 100;
+    margin-top:12.5rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-left:1.2rem;
+    word-spacing: 0.1rem;
+    padding-right: 12rem;
+    color:var(--lightwhite);
   }
   .hero .sociallinks{
     padding-left:0;
-    margin-left:-15px;
+    padding-right:0;
+    margin-left:0.8rem;
     z-index: 9999;
-    margin-top:200px;
+    padding-top:0;
+  }
+  .diff_about img{
+    width:5px;
+    margin-top: -3rem;
+    margin-bottom: 2.5rem;
+  }
+  .text{
+    font-size:55px;
+    margin-top:2rem;
+    padding-bottom: 1rem;
   }
   .about .about-para{
+    display: block;
+    text-align: center;
+    margin: 1rem auto;
+    padding: 1rem;
     position:absolute;
-    z-index: 9999;
-    font-size:15px;
-    margin-left:0px;
-    display: block;    
+    z-index: 1;
+    font-size:12px;
   }
   .about .container img{
     margin-left:-140px;
     opacity: 0.4;
     word-spacing:0px;
   }
-  .text{
-    font-size:60px;
+  .diff_exp img{
+    width: 5px;
+    margin-top:7rem;
   }
   blockquote{
-    padding: 2rem;
+    padding: 0.6rem;
     padding-bottom: 1rem;
-    word-spacing: 0.2rem;
+    width:100%;
   }blockquote::before{
     font-size:30px;
     padding: .4rem;
@@ -1642,101 +1314,136 @@ footer h1{
     padding: .4rem;
   }
   .container .timeline_class{
-    margin-bottom:5rem;
+    margin-bottom:2rem;
   }
   section.experience .card-wrapper{
-    align-items:unset;
-    flex-direction:column;
+    display: block;
     text-align: center;
+    position: relative;
+    margin: 3rem auto;
+    padding: 1rem;
+    height:340px;
+    max-width:300px;
+    flex-direction:column;
   }
   section.experience .card-wrapper .left img{
-    margin-top:-35px;
+    margin-top:-30px;
   }
   section.experience .card-wrapper .right h4{
     margin-bottom: .3rem;
+    margin-left:-45px;
   }
   section.experience .card-wrapper .right h2{
     font-size:18px;
+    margin-left:-45px;
     padding-bottom:1rem;
   }
   section.experience .card-wrapper .right p{
     font-size: 12px;
+    padding:0;
+    margin-left:-45px;
     line-height: 15px;
   }
-  br{
+  section.experience .card-wrapper .right p br{
     display:none;
+  }
+  .diff_edu img{
+    width: 5px;
+    margin-top:1rem;
   }
   section.experience .More_exp{
     margin:20px auto;
   }
   .container .grid .college{
     transform: unset;
-    width:350px;
+    display: block;
+    text-align: center;
+    position: relative;
+    width: 50%;
+    margin: 1rem auto;
+    padding-bottom: 4rem;
+    padding:10px;
+    margin-top: 0px;
     height:500px;
-    margin-bottom: 1rem;
+    width:330px;
   }
   .container .grid .college img{
-    width:350px;
+    width:310px;
     padding:1rem;
+    justify-content: center;
   }
   .edu-wrap{
     flex-direction: column;
   }
   .container .grid .skills{
-    transform:unset;
-    width:345px;
-  }
-  .card{
-    margin:2rem;
-    width: 280px;
-    height: 320px;
-  }
-  .title{
+    display: block;
+    text-align: center;
+    position: relative;
+    width: 50%;
+    margin: 1rem auto;
+    padding-bottom: 4rem;
+    transform:translate(0);
+    width: 270px;
+    height:230px;
     padding:0;
   }
+  .container .tagline{
+    margin-bottom:1rem;
+  }
+  .card{
+    margin:1.5rem;
+    width: 280px;
+    height: 250px;
+  }
   .tools h2{
-    padding-top:1rem;
+    font-size:25px;
+    margin-top:3rem;
   }
   .tools .toolgrid{
-    grid-template-columns:repeat(3,5fr);
-    padding:4rem;
-    padding-top: 1rem;
-
+    margin-top:0;
   }
   .tools .toolgrid img{
-    width: 70px;
-  }
-  .gttext{
-    font-size: 53px;
-    padding-bottom: 1rem;
-  }
-  .diff_getintouch{
-    padding:0px;
+    width: 40px;
   }
   .contact p{
-    font-size: 13px;
+    font-size: 12px;
+    padding:1rem;
+    line-height:1rem;
+  }
+  .contact p br{
+    display:none;
+  }
+  .contact .dbtn{
+    height:60px;
+    width:180px;
   }
   .dbtnclass{
-    margin:0rem;  
+    margin:1rem;
   }
-  section.contact .contact-wrapper{
-    grid-template-columns: repeat(3,1fr);
+  .diff_getintouch{
+    padding:1rem;
   }
   .c-card img{
-    width:80px;
+    width:75px;
   }
   .c-card a{
-    font-size: 13px;
+    font-size: 9px;
   }
   footer h2{
-    font-size:12px;
+    font-size: 13px;
+    margin-left:1rem;
   }
   footer h1{
-    font-size:12px;
+    font-size:13px;
+    margin-right:1rem;
+  }
+  .material-icons.md-48{
+    font-size: 32px;
+  }
+  #toTop{
+    width:31.5px;
+    height:31.5px;
+    bottom:30px;
+    right:10px;
   }
 }
-
-@media (min-width: 1200px) and (max-width: 1680px){
- 
-   
-} */

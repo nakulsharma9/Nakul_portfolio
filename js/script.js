@@ -21,3 +21,10 @@ times.addEventListener('click', function () {
     mobileNav.classList.remove('open');
 
 })
+$('.hamburger').on('click', function () {
+    $('.mobile-nav').addClass('open');
+});
+
+$('.mobile-nav ul li a').on("click", function () {
+    $('.mobile-nav').removeClass('open');
+});
