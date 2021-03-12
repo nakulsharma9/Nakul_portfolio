@@ -661,7 +661,8 @@ footer h1{
 }
 .mobile-nav ul{
   list-style-type: none;
-  padding:2rem;
+  padding:1rem;
+  padding-top:4rem;
 }
 .mobile-nav ul li a{
   color:var(--background);
@@ -669,8 +670,8 @@ footer h1{
   font-family: Montserrat;
   text-transform: uppercase;
   font-weight: 501;
-  font-size:2rem;
-  line-height:3.5rem;
+  font-size:20px;
+  line-height:3rem;
 }
 /*adding media query for desktop over 1200 to 1681 px*/
 @media (min-width: 1200px) and (max-width: 1681px){
@@ -1196,14 +1197,8 @@ footer h1{
     container{
       width: 375px;
       padding: 0px;
+      margin: 0;
       /* padding-top: 2rem; */
-    }
-    body{
-      /* width:100%; */
-      overflow-x: hidden;
-    }
-    AOS.init{
-        offset: 220;
     }
     .hero{
       flex-direction: column;
