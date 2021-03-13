@@ -1447,3 +1447,261 @@ footer h1{
     right:10px;
   }
 }
+@media (min-width:320px) and (max-width:374px){
+  header #main-nav{
+    display: none;
+  }
+  container{
+    width:100vw;
+    padding: 0px;
+    margin: 0;
+  }
+  .Logo-out img{
+    width:60px;
+    display: block;
+    transform:translateY(45px);
+    margin: 1rem;
+    padding:0.3rem;
+  }
+  .hamburger{
+    position:absolute;
+    top:5px;
+    right:20px;
+    background-color: var(--background);
+    color:var(--lightwhite);
+    border:none;
+    cursor: pointer;
+  }
+  .hamburger{
+    display: block;
+  }
+  .hero{
+    flex-direction: column;
+    padding-top:0rem;
+    display: block;
+    margin: 0.2rem auto;
+    padding: 0.2rem;
+  }
+  .hero .left h1{
+    padding:0.6rem;
+    z-index: 9999;
+    margin-top:7rem;
+    margin-left: 0.3rem;
+    font-size:1.1rem;
+  }
+  .rectangle{
+    margin-left:0;
+    z-index: 9999;
+    margin-top:11.5rem; 
+    margin-left:0.9rem;
+  }
+  .hero .right img{
+    width: 295px;
+    height:400px;
+    opacity: 0.4;
+    margin-right:-1rem;
+    margin-top:4rem;
+  }
+  .hero .left p{
+    margin-left:0px;
+    position: absolute;
+    z-index: 9999;
+    font-size:0.5rem;
+    font-weight: 100;
+    margin-top:12rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-left:1rem;
+    word-spacing: 0.1rem;
+    padding-right: 8rem;
+    color:var(--lightwhite);
+  }
+  .hero .sociallinks{
+    padding-left:0;
+    padding-right:0;
+    margin-left:0.4rem;
+    z-index: 9999;
+    padding-top:0;
+    margin-top:16rem;
+  }
+  .diff_about img{
+    width:5px;
+    margin-top: -3rem;
+    margin-bottom: 2.5rem;
+  }
+  .text{
+    font-size:48px;
+    margin-top:2rem;
+    padding-bottom: 1rem;
+  }
+  .about .about-para{
+    display: block;
+    text-align: center;
+    margin: 0.3rem auto;
+    padding: 0.3rem;
+    position:absolute;
+    z-index: 1;
+    font-size:11px;
+  }
+  .about .container img{
+    margin-left:0rem;
+    margin:0;
+    opacity: 0.4;
+    width:250px;
+  }
+  .diff_exp img{
+    width: 5px;
+    margin-top:7rem;
+  }
+  blockquote{
+    padding: 0.6rem;
+    padding-bottom: 1rem;
+    width:100%;
+    font-size: 1rem;
+  }blockquote::before{
+    font-size:30px;
+    padding: .4rem;
+  }
+  blockquote::after{
+    font-size:30px;
+    padding: .4rem;
+  }
+  .container .timeline_class{
+    margin-bottom:2rem;
+  }
+  section.experience .card-wrapper{
+    display: block;
+    text-align: center;
+    position: relative;
+    margin: 3rem auto;
+    padding: 1rem;
+    height:340px;
+    max-width:280px;
+    flex-direction:column;
+  }
+  section.experience .card-wrapper .left img{
+    margin-top:-30px;
+  }
+  section.experience .card-wrapper .right h4{
+    margin-bottom: .3rem;
+    margin-left:-45px;
+  }
+  section.experience .card-wrapper .right h2{
+    font-size:18px;
+    margin-left:-45px;
+    padding-bottom:1rem;
+  }
+  section.experience .card-wrapper .right p{
+    font-size: 12px;
+    padding:0;
+    margin-left:-45px;
+    line-height: 15px;
+  }
+  section.experience .card-wrapper .right p br{
+    display:none;
+  }
+  .diff_edu img{
+    width: 5px;
+    margin-top:1rem;
+  }
+  section.experience .More_exp{
+    margin:20px auto;
+  }
+  .container .grid .college{
+    transform: unset;
+    display: block;
+    text-align: center;
+    position: relative;
+    width: 50%;
+    margin: 1rem auto;
+    padding-bottom: 4rem;
+    padding:10px;
+    margin-top: 0px;
+    height:480px;
+    width:280px;
+  }
+  .container .grid .college img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding:1rem;
+    justify-content: center;
+  }
+  .edu-wrap{
+    flex-direction: column;
+  }
+  .container .grid .skills{
+    display: block;
+    text-align: center;
+    position: relative;
+    width: 50%;
+    margin: 1rem auto;
+    padding-bottom: 4rem;
+    transform:translate(0);
+    width: 270px;
+    height:230px;
+    padding:0;
+  }
+  .container .tagline{
+    margin-bottom:1rem;
+  }
+  .card{
+    margin:1.5rem;
+    width: 260px;
+    height: 250px;
+  }
+  .tools h2{
+    font-size:25px;
+    margin-top:2rem;
+    padding:2rem;
+  }
+  .tools .toolgrid{
+    margin-top:0;
+    padding:0;
+  }
+  .tools .toolgrid img{
+    width: 30px;
+  }
+  .contact p{
+    font-size: 12px;
+    padding:1rem;
+    line-height:1rem;
+  }
+  .contact p br{
+    display:none;
+  }
+  .contact .dbtn{
+    height:60px;
+    width:180px;
+  }
+  .dbtnclass{
+    margin:1rem;
+  }
+  .diff_getintouch{
+    padding:1rem;
+  }
+  .c-card img{
+    width:75px;
+  }
+  .c-card a{
+    font-size: 9px;
+  }
+  footer h2{
+    font-size: 13px;
+    margin-left:1rem;
+  }
+  footer h1{
+    font-size:13px;
+    margin-right:1rem;
+  }
+  .material-icons.md-48{
+    font-size: 32px;
+  }
+  #toTop{
+    width:31.5px;
+    height:31.5px;
+    bottom:30px;
+    right:10px;
+  }
+}
