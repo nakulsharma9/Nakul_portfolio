@@ -1,2 +1,2 @@
-# portfolio
-This repository holds the code for the webpages of Portfolio
+# Portfolio
+## This repository holds the code for the webpages of Portfolio
