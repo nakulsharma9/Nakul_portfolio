@@ -1,30 +1,21 @@
 $(window).scroll(function () {
     if ($(window).scrollTop() > 400) {
-        $("a.tbtn").fadeIn();
+        $("#toTop").fadeIn();
     } else {
-        $("a.tbtn").fadeOut();
+        $("#toTop").fadeOut();
     }
 });
-$("a.tbtn").click(function () {
+$("#toTop").click(function () {
     $("html").animate({
         scrollTop: 0
     })
 })
-let hamburger = document.querySelector('.hamburger');
-let times = document.querySelector('.times');
-let mobileNav = document.querySelector('.mobile-nav');
-
-hamburger.addEventListener('click', function () {
-    mobileNav.classList.add('open');
-})
-times.addEventListener('click', function () {
-    mobileNav.classList.remove('open');
-
-})
 $('.hamburger').on('click', function () {
     $('.mobile-nav').addClass('open');
 });
-
+$('.times').on('click', function () {
+    $('.mobile-nav').removeClass('open');
+});
 $('.mobile-nav ul li a').on("click", function () {
     $('.mobile-nav').removeClass('open');
 });
