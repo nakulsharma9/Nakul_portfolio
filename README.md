@@ -1,4 +1,6 @@
-![Portfolio](https://nakulsharma9.github.io/portfolio/)
+# Portfolio
+
+![Portfolio](https://nakulsharma9.github.io/portfolio)
 
 ## This repository holds the webpages of Portfolio
 
