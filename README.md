@@ -2,6 +2,6 @@
 
 ## This repository holds the webpages of Portfolio
 
-<a href = " https://nakulsharma9.github.io/portfolio">Portfolio </h1></a>
+[LINK*](https://nakulsharma9.github.io/portfolio/)
 
 ![Heropage](img/behance_banner.jpg)
