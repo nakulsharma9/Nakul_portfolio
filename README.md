@@ -4,7 +4,7 @@
 
 ![Heropage](img/hero_page.png)
 
-![Heropage](img/about_page.png)
+![Heropage](img/About_page.png)
 
 ![Heropage](img/exp_page.png)
 
